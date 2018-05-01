@@ -1,9 +1,9 @@
-Flexbo'x oshxonasi
+Fleksbo'ks oshxonasi
 =======
 
-CSS Flexbo'x organish uchun o'zbek tilida o'yin - https://kmlxn.github.io/flexbox-oshxonasi/.
+CSS Fleksbo'ks organish uchun o'zbek tilida o'yin - https://kmlxn.github.io/flexbox-oshxonasi/.
 
-Bu To'mas Park `Flexbox Froggy` o'yinini tarjimalangan va sal o'zgartirilgan turi.
+Bu To'mas Park `Flexbox Froggy` o'yinini tarjima qilingan va sal o'zgartirilgan turi.
 
 ## Copyright and License
 
