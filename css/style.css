@@ -18,8 +18,8 @@ body {
   display: flex;
   min-width: 600px;
   margin: 0;
-  background-color: #43A047;
-  color: rgba(255, 255, 255, 0.7);
+  background-color: #ffe968;
+  color: rgba(0,0,0, 0.7);
   font-family: 'PT Sans', sans-serif;
 }
 
@@ -28,15 +28,15 @@ body {
   min-width: 300px;
   position: relative;
   padding: 2em;
-  background-color: #43A047;
-  font-size: 15px;
+  background-color: #ffe968;
+  font-size: 17px;
 }
 
 h1 {
   margin: 0 0 0.5em;
   text-transform: uppercase;
-  font-family: 'Fredoka One', cursive;
-  font-size: 28px;
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 47px;
 }
 
 pre {
@@ -48,7 +48,7 @@ code {
   background-color: rgba(255, 255, 255, 0.2);
   font-family: 'Source Code Pro', monospace;
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(51, 51, 51, 0.8);
   white-space: nowrap;
 }
 
@@ -57,7 +57,7 @@ li {
 }
 
 a {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(51, 51, 51, 0.7);
 }
 
 a:hover {
@@ -66,19 +66,20 @@ a:hover {
 
 .help {
   cursor: pointer;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.7);
 }
 
 .tooltip {
   position: absolute;
   display: inline-block;
-  max-width: 225px;
+  max-width: 300px;
   padding: 1em 1em;
-  background-color: #2c3e50;
+  background-color: white;
   border-radius: 4px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.5;
   z-index: 60;
+  box-shadow: 1px 1px 1px 1px rgba(51, 51, 51, 0.103);  
 }
 
 .tooltip:after {
@@ -90,7 +91,7 @@ a:hover {
   height: 0;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 12px solid #2c3e50;
+  border-bottom: 12px solid white;
 }
 
 #share {
@@ -135,7 +136,7 @@ pre {
   height: 260px;
   position: relative;
   padding: 10px 10px 10px 40px;
-  background-color: #ddd;
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 4px;
   overflow: hidden;
 }
@@ -147,8 +148,8 @@ pre {
   height: 100%;
   padding: 10px 6px;
   text-align: right;
-  background-color: #999;
   color: #D5D5D5;
+  border-right: 1px solid;
 }
 
 #code {
@@ -162,6 +163,8 @@ pre {
   outline: none;
   resize: none;
   overflow: auto;
+  background-color: #F5F5F5;
+  border-radius: 4px;
 }
 
 #level-counter {
@@ -175,6 +178,7 @@ pre {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  margin-top: 14px;
 }
 
 #levelsWrapper {
@@ -216,7 +220,7 @@ pre {
 }
 
 .level-marker.solved {
-  background-color: #228B24;
+  background-color: #8bc34a;
 }
 
 #level-indicator,
@@ -280,7 +284,7 @@ pre {
 button {
   display: inline-block;
   padding: 0.4em 0.8em;
-  background-color: #D11606;
+  background-color: #8bc34a;
   border: none;
   border-radius: 4px;
   font-family: 'PT Sans', sans-serif;
@@ -318,8 +322,8 @@ button:not(.disabled):hover {
   margin-top: 1.5em;
   line-height: 1.5em;
   text-align: center;
-  font-size: 12px;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 13px;
+  color: rgba(51, 51, 51, 0.4);
 }
 
 .toggle {
@@ -327,7 +331,7 @@ button:not(.disabled):hover {
   padding: 1px 8px;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 3px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(51, 51, 51, 0.7);
   cursor: pointer;
   user-select: none;
 }
@@ -360,7 +364,7 @@ button:not(.disabled):hover {
 #language .tooltip a {
   padding: 0 2px;
   font-weight: 900;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(51, 51, 51, 0.7);
   white-space: nowrap;
 }
 
@@ -391,7 +395,7 @@ button:not(.disabled):hover {
 #background {
   z-index: 10;
   border-radius: 0 0 0 10px;
-  background-color: #1F5768;
+  background-color: #8bc34a;
 }
 
 #pond {
@@ -452,50 +456,50 @@ button:not(.disabled):hover {
 }
 
 .lilypad.green .bg {
-  background-image: url("../images/lilypad-green.svg");
+  background-image: url("../images/lagan-yashil.svg");
 }
 
 .lilypad.green.cb-friendly .bg {
-  background-image: url("../images/lilypad-green-color-assist.svg");
+  background-image: url("../images/lagan-yashil-color-assist.svg");
 }
 
 .lilypad.red .bg {
-  background-image: url("../images/lilypad-red.svg");
+  background-image: url("../images/lagan-qizil.svg");
 }
 
 .lilypad.red.cb-friendly .bg {
-  background-image: url("../images/lilypad-red-color-assist.svg");
+  background-image: url("../images/lagan-qizil-color-assist.svg");
 }
 
 .lilypad.yellow .bg {
-  background-image: url("../images/lilypad-yellow.svg");
+  background-image: url("../images/lagan-sariq.svg");
 }
 .lilypad.yellow.cb-friendly .bg {
-  background-image: url("../images/lilypad-yellow-color-assist.svg");
+  background-image: url("../images/lagan-sariq-color-assist.svg");
 }
 
 .frog.green .bg {
-  background-image: url("../images/frog-green.svg");
+  background-image: url("../images/somsa-yashil.svg");
 }
 
 .frog.green.cb-friendly .bg {
-  background-image: url("../images/frog-green-color-assist.svg");
+  background-image: url("../images/somsa-yashil-color-assist.svg");
 }
 
 .frog.red .bg {
-  background-image: url("../images/frog-red.svg");
+  background-image: url("../images/somsa-qizil.svg");
 }
 
 .frog.red.cb-friendly .bg {
-  background-image: url("../images/frog-red-color-assist.svg");
+  background-image: url("../images/somsa-qizil-color-assist.svg");
 }
 
 .frog.yellow .bg {
-  background-image: url("../images/frog-yellow.svg");
+  background-image: url("../images/somsa-sariq.svg");
 }
 
 .frog.yellow.cb-friendly .bg {
-  background-image: url("../images/frog-yellow-color-assist.svg");
+  background-image: url("../images/somsa-sariq-color-assist.svg");
 }
 
 .wrap {

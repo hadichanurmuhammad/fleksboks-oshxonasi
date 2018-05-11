@@ -1,6 +1,6 @@
 var game = {
   colorblind: (localStorage.colorblind && JSON.parse(localStorage.colorblind)) || false,
-  language: window.location.hash.substring(1) || 'en',
+  language: window.location.hash.substring(1) || 'uz',
   level: parseInt(localStorage.level, 10) || 0,
   answers: (localStorage.answers && JSON.parse(localStorage.answers)) || {},
   solved: (localStorage.solved && JSON.parse(localStorage.solved)) || [],
@@ -317,20 +317,13 @@ var game = {
 
       var key = JSON.stringify(position);
       var val = $(this).data('color');
-
+      
       if (!(key in frogs) || frogs[key] !== val) {
         correct = false;
       }
     });
 
     if (correct) {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: level.name,
-        eventAction: 'correct',
-        eventLabel: $('#code').val()
-      });
-
       if ($.inArray(level.name, game.solved) === -1) {
         game.solved.push(level.name);
       }
@@ -338,13 +331,6 @@ var game = {
       $('[data-level=' + game.level + ']').addClass('solved');
       $('#next').removeClass('disabled');
     } else {
-      ga('send', {
-        hitType: 'event',
-        eventCategory: level.name,
-        eventAction: 'incorrect',
-        eventLabel: $('#code').val()
-      });
-
       $('#next').addClass('disabled');
     }
   },

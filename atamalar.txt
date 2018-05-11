@@ -1,0 +1,8 @@
+container: saqlagich
+property: xususiyat
+value: qiymat
+default: oldindan berilgan
+oficiant: xizmatkor
+code: ko'd
+variant: tur
+pointer: ko'rsatgich
