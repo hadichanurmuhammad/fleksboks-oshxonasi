@@ -32,16 +32,16 @@ var levels = [
       'ml': '<p>Flexbox Froggy- ലേക്ക് സ്വാഗതം, നിങ്ങൾ Froggy ഉം സുഹൃത്തുക്കളും CSS കോഡ് എഴുതുക വഴി സഹായിക്കുന്ന ഒരു ഗെയിം! <code>justify-content</code> എന്ന പ്രോപ്പർട്ടി ഉപയോഗിച്ച് ഫ്രോഗി യെ വലതു വശത്തുള്ള താമരപ്പൂവിന്റെ ഇലയിലേക്കു എത്തിക്കുക</p><ul><li><code>flex-start</code>: Items align to the left side of the container.</li><li><code>flex-end</code>: ഇനങ്ങൾ കണ്ടെയ്നറിൽ ഇടത്തേക്ക് അലൈൻ ചെയ്യുക</li><li><code>center</code>: വസ്തുക്കൾ അലൈക്റ്ററിന്റെ മധ്യഭാഗത്തേക്ക് അലൈൻ ചെയ്യുക</li><li><code>space-between</code>: ഇനങ്ങൾ തമ്മിൽ തുല്യ ഇടവേളയിൽ പ്രദർശിപ്പിക്കും.</li><li><code>space-around</code>: ഇനങ്ങൾ അവയ്ക്ക് തുല്യമായ സ്പെയ്സിംഗ് ഉപയോഗിച്ച് കാണാം.</li></ul><p>ഉദാഹരണത്തിന്, <code>justify-content: flex-end;</code> വലതുവശത്തേക്ക് തവളയെ മറ്റും. <img src="https://code.org/api/hour/begin_flexbox_froggy.png"></p>',
       'el': '<p>Καλωσήλθατε στο Flexbox Froggy, ένα παιχνίδι όπου βοηθάτε τον Froggy και τους φίλους του γράφοντας κώδικα CSS! Οδηγήστε αυτόν τον βάτραχο στο νούφαρο στα δεξιά χρησιμοποιώντας την ιδιότητα <code>justify-content</code>, που ευθυγραμμίζει αντικείμενα στον οριζόντιο άξονα και αποδέχεται τις εξής αξίες:</p><ul><li><code>flex-start</code>: Τα αντικείμενα ευθυγραμμίζονται στην αριστερή πλευρά του container.</li><li><code>flex-end</code>: Τα αντικείμενα ευθυγραμμίζονται στην δεξιά πλευρά του container.</li><li><code>center</code>: Τα αντικείμενα ευθυγραμμίζονται στο κέντρο του container.</li><li><code>space-between</code>: Τα αντικείμενα εμφανίζονται με ίσο διάστημα ανάμεσά τους.</li><li><code>space-around</code>: Τα αντικείμενα εμφανίζονται με ίσο διάστημα γύρω τους.</li></ul><p>Λόγου χάρη, το <code>justify-content: flex-end;</code> θα μετακινήσει τον βάτραχο στα δεξιά. <img src="https://code.org/api/hour/begin_flexbox_froggy.png"></p>',
       'mk': '<p>Добродојдовте во Flex Froggy, игра каде што му помагате на Froggy и на неговите пријатели со пишување на CSS код! Водете го ова жабче до листот на десно со користење на <code>justify-content</code> својството, кое подредува елементи хоризонтално и ги прима следниве вредности:</p><ul><li><code>flex-start</code>: Елементите се подредуваат по левата страна на контејнерот.</li><li><code>flex-end</code>: Елементите се подредуваат по десната страна на контејнерот.</li><li><code>center</code>: Елементите се подредуваат во средината на контејнерот.</li><li><code>space-between</code>: Елементите се подредуваат со еднакво растојание помеѓу нив.</li><li><code>space-around</code>: Елементите се подредуваат со еднакво растојание околу нив.</li></ul><p>На пример, <code>justify-content: flex-end;</code> ќе ја помести жабата кон десно. <img src="https://code.org/api/hour/begin_flexbox_froggy.png"></p>',
-      'uz': `<p>Fleksbo'ks oshxonasiga xush kelibsiz. Bu o'yinda siz oshxonadagi xizmatchiga CSS ko'd yozib somsalarni o'z likopchalarga joylashtirishga yordam berasiz. Bu somsani chap tomondagi likopchaga <code>justify-content</code> xususiyatni ishlatib joylashtiring. Bu xususiyat buyumlarni yotiq o'q bo'yicha saflaydi va quyidagi qiymatlarni oladi:</p>
+      'uz': `<p>Fleksbo'ks oshxonasiga xush kelibsiz. Bu o'yinda siz oshxonadagi xizmatchiga CSS ko'd yozib somsalarni o'z likopchalariga joylashtirishga yordam berasiz. <code>justify-content</code> xususiyatidan foydalanib bu somsani o'ng tomondagi likopchaga joylashtiring. Bu xususiyat buyumlarni yotiq o'q bo'yicha saflaydi va quyidagi qiymatlarning biriga ega bo'ladi:</p>
         <ul>
-        <li><code>flex-start</code>: Buyumlarni saqlagichni chap tomoniga saflash.</li>
-        <li><code>flex-end</code>: Buyumlarni saqlagichni o'n tomoniga saflash.</li>
-        <li><code>center</code>: Buyumlarni saqlagichni o'rtasiga saflash.</li>
-        <li><code>space-between</code>: Buyumlarni orasida teng masofa bilan saflash.</li>
-        <li><code>space-around</code>: Buyumlarni atrofida teng masofa bilan saflash.</li>
-        <li><code>space-evenly</code>: <code>space-between</code> kabi, lekin chegaralargacha masofa ham inobatga olinadi.</li>
+        <li><code>flex-start</code> – buyumlarni saqlagichning chap tomoniga saflash.</li>
+        <li><code>flex-end</code> – buyumlarni saqlagichning o'ng tomoniga saflash.</li>
+        <li><code>center</code> – buyumlarni saqlagichning o'rtasiga saflash.</li>
+        <li><code>space-between</code> – buyumlarni orasida teng masofa bilan saflash.</li>
+        <li><code>space-around</code> – buyumlarni atrofida teng masofa bilan saflash.</li>
+        <li><code>space-evenly</code> – <code>space-between</code> kabi, lekin chegaralargacha masofa ham inobatga olinadi.</li>
         </ul>
-        <p>Masalan <code>justify-content: flex-end;</code> somsani o'nga joylashtiradi. <img src="https://code.org/api/hour/begin_flexbox_froggy.png"></p>`
+        <p>Masalan <code>justify-content: flex-end;</code> somsani o'ngga joylashtiradi. <img src="https://code.org/api/hour/begin_flexbox_froggy.png"></p>`
     },
     board: 'g',
     style: {'justify-content': 'flex-end'},
@@ -84,7 +84,7 @@ var levels = [
       'uz': `<p><code>justify-content</code> somsalarni yana o'zini likopchalariga joylashtirish uchun ishlating. Esingizda tursin, bu CSS xususiyat buyumlarni yotiq o'q bo'yicha saflaydi va quyidagi qiymatlarni oladi:</p>
         <ul>
         <li><code>flex-start</code>: Buyumlarni saqlagichni chap tomoniga saflash.</li>
-        <li><code>flex-end</code>: Buyumlarni saqlagichni o'n tomoniga saflash.</li>
+        <li><code>flex-end</code>: Buyumlarni saqlagichni o'ng tomoniga saflash.</li>
         <li><code>center</code>: Buyumlarni saqlagichni o'rtasiga saflash.</li>
         <li><code>space-between</code>: Buyumlarni orasida teng masofa bilan saflash.</li>
         <li><code>space-around</code>: Buyumlarni atrofida teng masofa bilan saflash.</li>
@@ -338,7 +338,7 @@ var levels = [
       'mk': '<p>Жабите треба да се подредат во ист редослед како и нивните листови со користење на <code>flex-direction</code>. Ова CSS својство ја определува насоката во која елементите се поставени во контејнерот, и ги прима следните вредности:</p><ul><li><code>row</code>: Елементите се распоредени исто како и насоката на текстот.</li><li><code>row-reverse</code>: Елементите се распоредени спротивно од насоката на текстот.</li><li><code>column</code>: Елементите се распоредени од горе надолу.</li><li><code>column-reverse</code>: Елементите се распоредени од долу нагоре.</li></ul>',
       'uz': `<p>Somsalarni <code>flex-direction</code> ishlatib qorni och xo'randalarni likoplariga joylashtirish kerak. Bu CSS xususiyat saqlagichdagi buyumlarni safini yo'nalishiga javob beradi, va quyidagi qiymatlarni oladi:</p>
         <ul>
-        <li><code>row</code>: Buyumlar matn kabi joylashtiradi (chapdan o'nga).</li>
+        <li><code>row</code>: Buyumlar matn kabi joylashtiradi (chapdan o'ngga).</li>
         <li><code>row-reverse</code>: Buyumlar matn yo'nalishiga tezkari joylashtiriladi.</li>
         <li><code>column</code>: Buyumlar tepadan pastga joylashtiradi.</li>
         <li><code>column-reverse</code>: Buyumlar pastdan tepaga joylashtiriladi.</li>
@@ -384,7 +384,7 @@ var levels = [
       'mk': '<p>Помогнете им на жабите да ја најдат нивната колона од листови со користење на <code>flex-direction</code>. Ова CSS својство ја определува насоката во која елементите се поставени во контејнерот, и ги прима следните вредности:</p><ul><li><code>row</code>: Елементите се распоредени исто како и насоката на текстот.</li><li><code>row-reverse</code>: Елементите се распоредени спротивно од насоката на текстот.</li><li><code>column</code>: Елементите се распоредени од горе надолу.</li><li><code>column-reverse</code>: Елементите се распоредени од долу нагоре.</li></ul>',
       'uz': `<p>Mijozlarni somsalarini likoplarga <code>flex-direction</code> ishlatib joylashtiring. Bu CSS xususiyat saqlagichdagi buyumlarni saflash yo'nalishiga javob beradi, va quyidagi qiymatlarni oladi:</p>
         <ul>
-        <li><code>row</code>: Buyumlar matn kabi joylashtiriladi (chapdan o'nga).</li>
+        <li><code>row</code>: Buyumlar matn kabi joylashtiriladi (chapdan o'ngga).</li>
         <li><code>row-reverse</code>: Buyumlar matn yo'nalishiga tezkari joylashtiriladi.</li>
         <li><code>column</code>: Buyumlar tepadan pastga joylashtiriladi.</li>
         <li><code>column-reverse</code>: Buyumlar pastdan tepaga joylashtiriladi.</li>
