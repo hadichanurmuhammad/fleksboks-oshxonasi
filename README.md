@@ -1,10 +1,14 @@
 Fleksbo'ks oshxonasi
 =======
 
-CSS Fleksbo'ks organish uchun o'zbek tilida o'yin - https://kmlxn.github.io/flexbox-oshxonasi/.
+CSS Fleksbo'ks organish uchun o'zbek tilida o'yin - https://kmlxn.github.io/fleksboks-oshxonasi/.
 
 Bu To'mas Park `Flexbox Froggy` o'yinini tarjima qilingan va sal o'zgartirilgan turi.
 
-## Copyright and License
+## Mualliflik huquqi va ruxsatnoma
 
-Copyright 2015-2017 Thomas Park. Code released under [the MIT License](https://github.com/thomaspark/flexboxfroggy/blob/gh-pages/LICENSE). Images released under [Creative Commons](https://creativecommons.org/licenses/by/3.0/legalcode.txt).
+Mualliflik huquqi 2015-2017 Tomas Park. Ko'd ruxsatnomasi - [MIT](https://github.com/kmlxn/fleksboks-oshxonasi/blob/gh-pages/LICENSE). Rasmlar ruxsatnomasi - [Creative Commons](https://creativecommons.org/licenses/by/3.0/legalcode.txt).
+
+## O'zbek tiliga tarjima
+
+Komilxon Asamov komilkhon.asamov@hotmail.com.
