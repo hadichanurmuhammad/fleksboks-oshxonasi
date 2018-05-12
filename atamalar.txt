@@ -2,7 +2,7 @@ container: saqlagich
 property: xususiyat
 value: qiymat
 default: oldindan berilgan
-oficiant: xizmatkor
+waiter: xizmatchi
 code: ko'd
 variant: tur
 pointer: ko'rsatgich
