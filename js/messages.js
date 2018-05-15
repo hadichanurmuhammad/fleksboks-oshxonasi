@@ -96,7 +96,7 @@ var messages = {
     'ml': 'Flexbox Froggy സൃഷ്ടിച്ചത്',
     'el': 'Το Flexbox Froggy δημιουργήθηκε από',
     'mk': 'Flexbox Froggy е создадено од',
-    'uz': "Tomas Parkni 'Flexbox Froggy' o'yinini o'zbek tiliga moslashtirilgan talqini."
+    'uz': "Tomas Parkning 'Flexbox Froggy' o'yinining o'zbek tiliga moslashtirilgan talqini."
   },
   labelLevel: {
     'en': 'Level',
