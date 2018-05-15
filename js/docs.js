@@ -63,7 +63,7 @@ var docs = {
     'ml': '<p>ക്രോസ്സ് അക്ഷത്തിൽ വളവുതിരിവുകളുള്ള ഇനങ്ങൾ വിന്യസിക്കുന്നു. </p> <code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'el': '<p>Ευθυγραμμίζει αντικείμενα flex κατά μήκος του εγκάρσιου άξονα.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
     'mk': '<p>Ги подредува flex елементите по вертикалната оска.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
-    'uz': "<p>Buyumlarni qatorni ichida ko'ndalang o'q bo'yicha saflaydi.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>"
+    'uz': "<p>Buyumlarni qatorini ichida ko'ndalang o'q bo'yicha saflaydi.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>"
   },
   'align-self': {
     'en': '<p>Aligns a flex item along the cross axis, overriding the <code>align-items</code> value.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',

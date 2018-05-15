@@ -32,12 +32,12 @@ var levels = [
       'ml': '<p>Flexbox Froggy- ലേക്ക് സ്വാഗതം, നിങ്ങൾ Froggy ഉം സുഹൃത്തുക്കളും CSS കോഡ് എഴുതുക വഴി സഹായിക്കുന്ന ഒരു ഗെയിം! <code>justify-content</code> എന്ന പ്രോപ്പർട്ടി ഉപയോഗിച്ച് ഫ്രോഗി യെ വലതു വശത്തുള്ള താമരപ്പൂവിന്റെ ഇലയിലേക്കു എത്തിക്കുക</p><ul><li><code>flex-start</code>: Items align to the left side of the container.</li><li><code>flex-end</code>: ഇനങ്ങൾ കണ്ടെയ്നറിൽ ഇടത്തേക്ക് അലൈൻ ചെയ്യുക</li><li><code>center</code>: വസ്തുക്കൾ അലൈക്റ്ററിന്റെ മധ്യഭാഗത്തേക്ക് അലൈൻ ചെയ്യുക</li><li><code>space-between</code>: ഇനങ്ങൾ തമ്മിൽ തുല്യ ഇടവേളയിൽ പ്രദർശിപ്പിക്കും.</li><li><code>space-around</code>: ഇനങ്ങൾ അവയ്ക്ക് തുല്യമായ സ്പെയ്സിംഗ് ഉപയോഗിച്ച് കാണാം.</li></ul><p>ഉദാഹരണത്തിന്, <code>justify-content: flex-end;</code> വലതുവശത്തേക്ക് തവളയെ മറ്റും. <img src="https://code.org/api/hour/begin_flexbox_froggy.png"></p>',
       'el': '<p>Καλωσήλθατε στο Flexbox Froggy, ένα παιχνίδι όπου βοηθάτε τον Froggy και τους φίλους του γράφοντας κώδικα CSS! Οδηγήστε αυτόν τον βάτραχο στο νούφαρο στα δεξιά χρησιμοποιώντας την ιδιότητα <code>justify-content</code>, που ευθυγραμμίζει αντικείμενα στον οριζόντιο άξονα και αποδέχεται τις εξής αξίες:</p><ul><li><code>flex-start</code>: Τα αντικείμενα ευθυγραμμίζονται στην αριστερή πλευρά του container.</li><li><code>flex-end</code>: Τα αντικείμενα ευθυγραμμίζονται στην δεξιά πλευρά του container.</li><li><code>center</code>: Τα αντικείμενα ευθυγραμμίζονται στο κέντρο του container.</li><li><code>space-between</code>: Τα αντικείμενα εμφανίζονται με ίσο διάστημα ανάμεσά τους.</li><li><code>space-around</code>: Τα αντικείμενα εμφανίζονται με ίσο διάστημα γύρω τους.</li></ul><p>Λόγου χάρη, το <code>justify-content: flex-end;</code> θα μετακινήσει τον βάτραχο στα δεξιά. <img src="https://code.org/api/hour/begin_flexbox_froggy.png"></p>',
       'mk': '<p>Добродојдовте во Flex Froggy, игра каде што му помагате на Froggy и на неговите пријатели со пишување на CSS код! Водете го ова жабче до листот на десно со користење на <code>justify-content</code> својството, кое подредува елементи хоризонтално и ги прима следниве вредности:</p><ul><li><code>flex-start</code>: Елементите се подредуваат по левата страна на контејнерот.</li><li><code>flex-end</code>: Елементите се подредуваат по десната страна на контејнерот.</li><li><code>center</code>: Елементите се подредуваат во средината на контејнерот.</li><li><code>space-between</code>: Елементите се подредуваат со еднакво растојание помеѓу нив.</li><li><code>space-around</code>: Елементите се подредуваат со еднакво растојание околу нив.</li></ul><p>На пример, <code>justify-content: flex-end;</code> ќе ја помести жабата кон десно. <img src="https://code.org/api/hour/begin_flexbox_froggy.png"></p>',
-      'uz': `<p>Fleksbo'ks oshxonasiga xush kelibsiz. Bu o'yinda siz oshxonadagi xizmatchiga CSS ko'd yozib somsalarni o'z likopchalariga joylashtirishga yordam berasiz. <code>justify-content</code> xususiyatidan foydalanib bu somsani o'ng tomondagi likopchaga joylashtiring. Bu xususiyat buyumlarni yotiq o'q bo'yicha saflaydi va quyidagi qiymatlarning biriga ega bo'ladi:</p>
+      'uz': `<p>Fleksbo'ks oshxonasiga xush kelibsiz. Bu o'yinda siz oshxonadagi xizmatchiga CSS kod yozib somsalarni o'z likopchalariga joylashga yordam berasiz. <code>justify-content</code> xususiyatidan foydalanib bu somsani o'ng tomondagi likopchaga joylashtiring. Bu xususiyat buyumlarni yotiq o'q bo'yicha saflaydi va quyidagi qiymatlarning biriga ega bo'ladi:</p>
         <ul>
         <li><code>flex-start</code> – buyumlarni saqlagichning chap tomoniga saflash.</li>
         <li><code>flex-end</code> – buyumlarni saqlagichning o'ng tomoniga saflash.</li>
         <li><code>center</code> – buyumlarni saqlagichning o'rtasiga saflash.</li>
-        <li><code>space-between</code> – buyumlarni orasida teng masofa bilan saflash.</li>
+        <li><code>space-between</code> – buyumlarni– buyumlarni orasida teng masofa bilan saflash.</li>
         <li><code>space-around</code> – buyumlarni atrofida teng masofa bilan saflash.</li>
         <li><code>space-evenly</code> – <code>space-between</code> kabi, lekin chegaralargacha masofa ham inobatga olinadi.</li>
         </ul>
@@ -81,14 +81,14 @@ var levels = [
       'ml': '<p><code>justify-content</code> ഉപയോഗിച്ച് തവളകളെ തിരിച്ചു താമര ഇലകളിലേക്കു എത്തിക്കുക. തിരശ്ചീനമായി ആണ് ഈ പ്രോപ്പർട്ടി വിന്യസിക്കുന്നത് എന്ന് ഓർക്കുക </p><ul><li><code>flex-start</code>: ഇനങ്ങൾ കണ്ടെയ്നറിന്റെ ഇടതുവശത്തേക്ക് വിന്യസിക്കുക.</li><li><code>flex-end</code>: ഇനങ്ങൾ കണ്ടെയ്നറിന്റെ വലതുവശത്തേക്ക് വിന്യസിക്കുക.</li><li><code>center</code>: ഇനങ്ങളുടെ മധ്യഭാഗത്ത് ഇനങ്ങൾ വിന്യസിക്കുക.</li><li><code>space-between</code>: ഇനങ്ങൾ തമ്മിൽ തുല്യ ഇടവേളയിൽ പ്രദർശിപ്പിക്കും.</li><li><code>space-around</code>: ഇനങ്ങൾ അവയ്ക്ക് തുല്യമായ സ്പെയ്സിംഗ് ഉപയോഗിച്ച് കാണാം.</li></ul>',
       'el': '<p>Χρησιμοποιήστε ξανά το <code>justify-content</code> για να βοηθήσετε αυτούς τους βατράχους να φτάσουν στα νούφαρά τους. Θυμηθείτε ότι η ιδιότητα CSS ευθυγραμμίζει αντικείμενα στον οριζόντιο άξονα και αποδέχεται τις εξής αξίες:</p><ul><li><code>flex-start</code>: Τα αντικείμενα ευθυγραμμίζονται στην αριστερή πλευρά του container.</li><li><code>flex-end</code>: Τα αντικείμενα ευθυγραμμίζονται στην δεξιά πλευρά του container.</li><li><code>center</code>: Τα αντικείμενα ευθυγραμμίζονται στο κέντρο του container.</li><li><code>space-between</code>: Τα αντικείμενα εμφανίζονται με ίσο διάστημα ανάμεσά τους.</li><li><code>space-around</code>: Τα αντικείμενα εμφανίζονται με ίσο διάστημα γύρω τους.</li></ul>',
       'mk': '<p>Користете <code>justify-content</code> повторно за да им помогнете на овие жаби да стигнат до своите листови. Запомнете дека ова CSS својство подредува елементи хоризонтално и ги прима следните вредности:</p><ul><li><code>flex-start</code>: Елементите се подредуваат по левата страна на контејнерот.</li><li><code>flex-end</code>: Елементите се подредуваат по десната страна на контејнерот.</li><li><code>center</code>: Елементите се подредуваат во средината на контејнерот.</li><li><code>space-between</code>: Елементите се подредуваат со еднакво растојание помеѓу нив.</li><li><code>space-around</code>: Елементите се подредуваат со еднакво растојание околу нив.</li></ul>',
-      'uz': `<p><code>justify-content</code> somsalarni yana o'zini likopchalariga joylashtirish uchun ishlating. Esingizda tursin, bu CSS xususiyat buyumlarni yotiq o'q bo'yicha saflaydi va quyidagi qiymatlarni oladi:</p>
+      'uz': `<p><code>justify-content</code> ni somsalarni yana o'z likopchalariga joylashi uchun ishlating. Esingizda tursin, bu CSS xususiyat buyumlarni yotiq o'q bo'yicha saflaydi va quyidagi qiymatlarning biriga ega bo'ladi:</p>
         <ul>
-        <li><code>flex-start</code>: Buyumlarni saqlagichni chap tomoniga saflash.</li>
-        <li><code>flex-end</code>: Buyumlarni saqlagichni o'ng tomoniga saflash.</li>
-        <li><code>center</code>: Buyumlarni saqlagichni o'rtasiga saflash.</li>
-        <li><code>space-between</code>: Buyumlarni orasida teng masofa bilan saflash.</li>
-        <li><code>space-around</code>: Buyumlarni atrofida teng masofa bilan saflash.</li>
-        <li><code>space-evenly</code>: <code>space-between</code> kabi, lekin chegaralargacha masofa ham inobatga olinadi.</li>
+        <li><code>flex-start</code> – buyumlarni saqlagichni chap tomoniga saflash.</li>
+        <li><code>flex-end</code> – buyumlarni saqlagichni o'ng tomoniga saflash.</li>
+        <li><code>center</code> – buyumlarni saqlagichni o'rtasiga saflash.</li>
+        <li><code>space-between</code> – buyumlarni orasida teng masofa bilan saflash.</li>
+        <li><code>space-around</code> – buyumlarni atrofida teng masofa bilan saflash.</li>
+        <li><code>space-evenly</code> – <code>space-between</code> kabi, lekin chegaralargacha masofa ham inobatga olinadi.</li>
         </ul>`
     },
     board: 'gy',
@@ -129,7 +129,7 @@ var levels = [
       'ml': '<p><code>justify-content</code> ഉപയോഗിച്ച് തവളകളെ താമര ഇലകൾ കണ്ടുപിടിക്കാൻ സഹായിക്കുക . ഈ സമയം, lilypads അവരുടെ ചുറ്റും ധാരാളം സ്ഥലം ഉണ്ട്.</p><p>ഒരു വസ്തുവിന്റെ മൂല്യങ്ങൾ നിങ്ങൾ മറന്നുപോകുന്നതായി കണ്ടാൽ, അവ കാണുന്നതിന് നിങ്ങൾക്ക് പ്രോപ്പർട്ടിയുടെ പേരിൽ ഹോവർ ചെയ്യാം. <code>justify-content</code>.</p> ഹോവർ ചെയ്യൽ ശ്രമിക്കുക',
       'el': '<p>Βοηθήστε και τους τρεις βατράχους να βρουν τα νούφαρά τους χρησιμοποιώντας μόνο το <code>justify-content</code>. Αυτή την φορά, τα νούφαρα έχουν άπλετο διάστημα τριγύρω τους.</p><p>Αν ξεχάσετε τις πιθανές αξίες για μια ιδιότητα, μπορείτε να βάλετε το ποντίκι σας πάνω από το όνομα της ιδιότητας για να τις δείτε. Δοκιμάστε να βάλετε το ποντίκι σας πάνω από το <code>justify-content</code>.</p>',
       'mk': '<p>Помогнете им на сите три жаби да ги најдат своите листови само со користење на <code>justify-content</code>. Овој пат, листовите имаат многу простор околу нив.</p><p>Доколку ги заборавите можните вредности за некое својство, можете да лебдите со маусот преку името на својството за да ги видите. Пробајте да лебдите со маусот преку <code>justify-content</code>.</p>',
-      'uz': `<p>xizmatchiga faqatgina <code>justify-content</code> ishlatib bu 3 somsalarni o'z likopchalarga joylashtirishga yordam bering. Bu gal, likoplarni atrofida joy ko'p.</p><p>Agar bir xususiyatni qiymatlarini esingizdan chiqarsangiz, siz ko'rsatgichni o'sha xususiyatga oborib u to'g'risida ma'lumotni ko'rsangiz bo'ladi. <code>justify-content</code> xususiyatga ko'rsatgichni oborib ko'ring.</p>`
+      'uz': `<p>Xizmatchiga faqatgina <code>justify-content</code> ni ishlatib bu 3 somsani o'z likopchalariga joylashga yordam bering. Bu gal, likoplarning atrofida joy ko'p.</p><p>Agar bir xususiyatning ega bo'lishi mumkin bo'lgan qiymatlarni yodingizdan chiqarsangiz, siz ko'rsatgichni o'sha xususiyatga olib borib u to'g'risidagi ma'lumotni ko'rsangiz bo'ladi. <code>justify-content</code> xususiyatiga ko'rsatgichni oborib ko'ring.</p>`
     },
     board: 'gyr',
     style: {'justify-content': 'space-around'},
@@ -169,7 +169,7 @@ var levels = [
       'ml': '<p>ഇപ്പോൾ ഞരമ്പുകളിലുള്ള താമരപ്പൂവും കടൽക്കരയിലേക്ക് നീങ്ങുന്നു, അവ തമ്മിൽ ഇടം വർദ്ധിപ്പിക്കുന്നു. <code>justify-content</code>. ഉപയോഗിച്ച്. താമര ഇലകൾക്ക് ഇടയിൽ ഒരേ ദൂരം ആണ് </p>',
       'el': '<p>Τώρα τα νούφαρα στις άκρες έχουν παρασυρθεί στην ακτή, αυξάνοντας το διάστημα μεταξύ τους. Χρησιμοποιήστε το <code>justify-content</code>. Αυτή την φορά, τα νούφαρα έχουν ίσο διάστημα μεταξύ τους.</p>',
       'mk': '<p>Сега листовите на рабовите се имаат придвижено кон брегот, зголемувајќи го просторот помеѓу нив. Користете <code>justify-content</code>. Овој пат, листовите имаат еднаков простор помеѓу нив.</p>',
-      'uz': `<p>Endi 2 likopchalarni xontaxtani chetlariga qo'yishibdi. <code>justify-content</code> ishlatib somsalarni jo'ylariga qo'ying. Bu gal likopchalarni atrofida teng masofa mavjud.</p>`
+      'uz': `<p>Endi 2 likopchani xontaxtaning chetlariga qo'yishibdi. <code>justify-content</code> ni ishlatib somsalarni jo'ylariga qo'ying. Bu gal likopchalarning atrofida teng masofa mavjud.</p>`
     },
     board: 'gyr',
     style: {'justify-content': 'space-between'},
@@ -209,13 +209,13 @@ var levels = [
       'ml': '<p><code>align-items</code> ഉപയോഗിച്ച് തവളകളെ തടാകത്തിന്റെ താഴേക്കു എത്തിക്കുക. ഈ CSS വസ്തു ലംബമായി ഇനങ്ങളെ വിന്യസിക്കുന്നു </p><ul><li><code>flex-start</code>: ഇനങ്ങൾ കണ്ടെയ്നർ മുകളിൽ വയ്ക്കുക.</li><li><code>flex-end</code>: ഇനങ്ങൾ കണ്ടെയ്നറിന് താഴെയായി വിന്യസിക്കുക.</li><li><code>center</code>: ഇനങ്ങൾ കണ്ടെയ്നറിന്റെ ലംബമായ കേന്ദ്രത്തിൽ വിന്യസിക്കുക.</li><li><code>baseline</code>: കണ്ടെയ്നറിന്റെ അടിസ്ഥാനത്തിൽ ഇനങ്ങൾ പ്രദർശിപ്പിക്കും.</li><li><code>stretch</code>: ഇനങ്ങൾ കണ്ടെയ്നറിൽ വയ്ക്കാൻ ഇട്ടു.</li></ul>',
       'el': '<p>Τώρα χρησιμοποιήστε το <code>align-items</code> για να βοηθήσετε τους βατράχους να φτάσουν στο κάτω μέρος της λιμνούλας. Αυτή η ιδιότητα CSS ευθυγραμμίζει αντικείμενα στον κάθετο άξονα και αποδέχεται τις εξής αξίες:</p><ul><li><code>flex-start</code>: Τα αντικείμενα ευθυγραμμίζονται στο πάνω μέρος του container.</li><li><code>flex-end</code>: Τα αντικείμενα ευθυγραμμίζονται στο κάτω μέρος του container.</li><li><code>center</code>: Τα αντικείμενα ευθυγραμμίζονται στο κάθετο κέντρο του container.</li><li><code>baseline</code>: Τα αντικείμενα εμφανίζονται στην βασική γραμμή του container.</li><li><code>stretch</code>: Τα αντικείμενα τεντώνονται για να ταιριάξουν στο container.</li></ul>',
       'mk': '<p>Сега користете <code>align-items</code> да им помогнете на жабите да стигнат до дното на езерцето. Ова CSS својство ги подредува елементите вертикално и ги прима следните вредности:</p><ul><li><code>flex-start</code>: Елементите се подредуваат по горниот крај на контејнерот.</li><li><code>flex-end</code>: Елементите се подредуваат по долниот крај на контејнерот.</li><li><code>center</code>: Елементите се подредуваат по вертикалниот центар на контејнерот.</li><li><code>baseline</code>: Елементите се подредуваат по основната линија на контејнерот.</li><li><code>stretch</code>: Елементите се истегнати за да го пополнат контејнерот.</li></ul>',
-      'uz': `<p>Endi <code>align-items</code> somsalarni xontaxtani pastiga qo'yish uchun ishating. Bu CSS xususiyat tik o'q bo'yicha buyumlarni saflaydi va quyidagi qiymatlarni oladi:</p>
+      'uz': `<p>Endi <code>align-items</code> ni somsalarning xontaxtaning pastiga qo'yish uchun ishating. Bu CSS xususiyat tik o'q bo'yicha buyumlarni saflaydi va quyidagi qiymatlarning biriga ega bo'ladi:</p>
         <ul>
-        <li><code>flex-start</code>: Saqlagichni tepasida buyumlarni saflash.</li>
-        <li><code>flex-end</code>: Saqlagichni pastida buyumlarni saflash.</li>
-        <li><code>center</code>: Saqlagichni tik o'qini markazida buyumlarni saflash.</li>
-        <li><code>baseline</code>: Saqlagichni matn osti chiziqida buyumlarni saflash.</li>
-        <li><code>stretch</code>: Buyumlarni tik o'q bo'yicha cho'zib saflash.</li>
+        <li><code>flex-start</code> – saqlagichning tepasida buyumlarni saflash.</li>
+        <li><code>flex-end</code> – saqlagichning pastida buyumlarni saflash.</li>
+        <li><code>center</code> – saqlagichning tik o'qining markazida buyumlarni saflash.</li>
+        <li><code>baseline</code> – saqlagichning matn osti chiziqida buyumlarni saflash.</li>
+        <li><code>stretch</code> – buyumlarni tik o'q bo'yicha cho'zib saflash.</li>
         </ul>`
     },
     board: 'gyr',
@@ -256,7 +256,7 @@ var levels = [
       'ml': '<p><code>justify-content</code> and <code>align-items</code> ഉപയോഗിച്ച് കുളത്തിന്റെ നടുവിലേക്ക് തവളയെ നയിക്കുക.</p>',
       'el': '<p>Οδηγήστε τον βάτραχο στο κέντρο της λιμνούλας χρησιμοποιώντας έναν συνδυασμό του <code>justify-content</code> και του <code>align-items</code>.</p>',
       'mk': '<p>Доведете ја жабата до центарот на езерцето користејќи комбинација од <code>justify-content</code> и <code>align-items</code>.</p>',
-      'uz': `<p>Somsani <code>justify-content</code> va <code>align-items</code> birikmasini ishlatib xontaxtani o'rtasiga joylashtiring.</p>`
+      'uz': `<p><code>justify-content</code> va <code>align-items</code> birikmasinidan foydalanib somsani xontaxtaning o'rtasiga joylang.</p>`
     },
     board: 'g',
     style: {'justify-content': 'center', 'align-items': 'center'},
@@ -296,7 +296,7 @@ var levels = [
       'ml': '<p><code>justify-content</code> and <code>align-items</code> ഉപയോഗിച്ച്  തവളകൾ വീണ്ടും കുളത്തിനടുത്ത് വേണം, ഈ സമയം ചില താമരപ്പൂക്കൾ അവർക്ക് ചുറ്റും ധാരാളം സ്ഥലങ്ങളുണ്ട്.</p>',
       'el': '<p>Οι βάτραχοι χρειάζεται να διασχίσουν ξανά την λιμνούλα, αυτή την φορά για να φτάσουν σε μερικά νούφαρα με άπλετο διάστημα τριγύρω τους. Χρησιμοποιήστε έναν συνδυασμό του <code>justify-content</code> και του <code>align-items</code>.</p>',
       'mk': '<p>Жабите треба да го поминат езерцето повторно, овој пат до листови со многу простор околу нив. Користејќи комбинација од <code>justify-content</code> и <code>align-items</code>.</p>',
-      'uz': `<p>Somsalarni yana xontaxtani nari tarafiga joylashtirish kerak. Endi likopchalarni orasida yetarli joy bor. <code>justify-content</code> va <code>align-items</code> birikmasini ishlating.</p>`
+      'uz': `<p>Somsalarni yana xontaxtani nari tarafiga joylash kerak. Endi likopchalarni orasida joy yetarli. <code>justify-content</code> va <code>align-items</code> birikmasini ishlating.</p>`
     },
     board: 'gyr',
     style: {'justify-content': 'space-around', 'align-items': 'flex-end'},
@@ -336,12 +336,12 @@ var levels = [
       'ml': '<p><code>flex-direction</code> ഉപയോഗിച്ച് താവളകൾക്കു അവരുടെ താമര ഇലകളുടെ അതെ ഓർഡറിൽ കൊണ്ടുവരുക . ഈ CSS വസ്തു, കണ്ടെയ്നറിൽ ദിശ ഇനങ്ങൾ സ്ഥാപിച്ചിരിക്കുന്നു എന്ന് നിർവ്വചിക്കുകയും ഇനിപ്പറയുന്ന മൂല്യങ്ങൾ അംഗീകരിക്കുകയും ചെയ്യും:</p><ul><li><code>row</code>: ഇനങ്ങൾ വാചക ദിശ പോലെ തന്നെ വയ്ക്കുന്നു.</li><li><code>row-reverse</code>: ഇനങ്ങൾ ടെക്സ്റ്റ് ദിശയ്ക്ക് വിപരീതമാണ്.</li><li><code>column</code>: ഇനങ്ങൾ മുകളിൽ താഴെയായി.</li><li><code>column-reverse</code>: ഇനങ്ങൾ മുകളിൽ മുകളിലായി സ്ഥാപിക്കുന്നു.</li></ul>',
       'el': '<p>Οι βάτραχοι πρέπει να μπουν στην ίδια σειρά με τα νούφαρά τους χρησιμοποιώντας το <code>flex-direction</code>. Αυτή η ιδιότητα CSS καθορίζει την κατεύθυνση με την οποία τοποθετούνται τα αντικείμενα στο container, και αποδέχεται τις εξής αξίες:</p><ul><li><code>row</code>: Τα αντικείμενα τοποθετούνται στην ίδια κατεύθυνση με το κείμενο.</li><li><code>row-reverse</code>: Τα αντικείμενα τοποθετούνται σε κατεύθυνση αντίθετη από το κείμενο.</li><li><code>column</code>: Τα αντικείμενα τοποθετούνται από πάνω προς τα κάτω.</li><li><code>column-reverse</code>: Τα αντικείμενα τοποθετούνται από κάτω προς τα πάνω.</li></ul>',
       'mk': '<p>Жабите треба да се подредат во ист редослед како и нивните листови со користење на <code>flex-direction</code>. Ова CSS својство ја определува насоката во која елементите се поставени во контејнерот, и ги прима следните вредности:</p><ul><li><code>row</code>: Елементите се распоредени исто како и насоката на текстот.</li><li><code>row-reverse</code>: Елементите се распоредени спротивно од насоката на текстот.</li><li><code>column</code>: Елементите се распоредени од горе надолу.</li><li><code>column-reverse</code>: Елементите се распоредени од долу нагоре.</li></ul>',
-      'uz': `<p>Somsalarni <code>flex-direction</code> ishlatib qorni och xo'randalarni likoplariga joylashtirish kerak. Bu CSS xususiyat saqlagichdagi buyumlarni safini yo'nalishiga javob beradi, va quyidagi qiymatlarni oladi:</p>
+      'uz': `<p>Somsalarni <code>flex-direction</code> xususiyatidan foydalanib qorni och xo'randalarning likoplariga joylash kerak. Bu CSS xususiyat buyumlarni safini yo'nalishiga javob beradi, va quyidagi qiymatlarning biriga ega bo'ladi:</p>
         <ul>
-        <li><code>row</code>: Buyumlar matn kabi joylashtiradi (chapdan o'ngga).</li>
-        <li><code>row-reverse</code>: Buyumlar matn yo'nalishiga tezkari joylashtiriladi.</li>
-        <li><code>column</code>: Buyumlar tepadan pastga joylashtiradi.</li>
-        <li><code>column-reverse</code>: Buyumlar pastdan tepaga joylashtiriladi.</li>
+        <li><code>row</code> – buyumlar matn kabi joylanadi (chapdan o'ngga).</li>
+        <li><code>row-reverse</code> – buyumlar matn yo'nalishiga tezkari joylanadi.</li>
+        <li><code>column</code> – buyumlar tepadan pastga joylanadi.</li>
+        <li><code>column-reverse</code> – buyumlar pastdan tepaga joylanadi.</li>
         </ul>`
     },
     board: 'gyr',
@@ -382,12 +382,12 @@ var levels = [
       'ml': '<p><code>flex-direction</code> ഉപയോഗിച്ച് തവളകളെ അവരവരുടെ താമര ഇലകളിക് എത്തിക്കുക . ഈ CSS വസ്തു, കണ്ടെയ്നറിൽ ദിശ ഇനങ്ങൾ സ്ഥാപിച്ചിരിക്കുന്നു എന്ന് നിർവ്വചിക്കുകയും ഇനിപ്പറയുന്ന മൂല്യങ്ങൾ അംഗീകരിക്കുകയും ചെയ്യും:</p><ul><li><code>row</code>: ഇനങ്ങൾ വാചക ദിശ പോലെ തന്നെ വയ്ക്കുന്നു.</li><li><code>row-reverse</code>: ഇനങ്ങൾ ടെക്സ്റ്റ് ദിശയ്ക്ക് വിപരീതമാണ്.</li><li><code>column</code>: ഇനങ്ങൾ മുകളിൽ താഴെയായി.</li><li><code>column-reverse</code>: ഇനങ്ങൾ മുകളിൽ മുകളിലായി സ്ഥാപിക്കുന്നു.</li></ul>',
       'el': '<p>Βοηθήστε τους βατράχους να φτάσουν στην στήλη με τα νούφαρά τους χρησιμοποιώντας το <code>flex-direction</code>. Αυτή η ιδιότητα CSS καθορίζει την κατεύθυνση με την οποία τοποθετούνται τα αντικείμενα στο container, και αποδέχεται τις εξής αξίες:</p><ul><li><code>row</code>: Τα αντικείμενα τοποθετούνται στην ίδια κατεύθυνση με το κείμενο.</li><li><code>row-reverse</code>: Τα αντικείμενα τοποθετούνται σε κατεύθυνση αντίθετη από το κείμενο.</li><li><code>column</code>: Τα αντικείμενα τοποθετούνται από πάνω προς τα κάτω.</li><li><code>column-reverse</code>: Τα αντικείμενα τοποθετούνται από κάτω προς τα πάνω.</li></ul>',
       'mk': '<p>Помогнете им на жабите да ја најдат нивната колона од листови со користење на <code>flex-direction</code>. Ова CSS својство ја определува насоката во која елементите се поставени во контејнерот, и ги прима следните вредности:</p><ul><li><code>row</code>: Елементите се распоредени исто како и насоката на текстот.</li><li><code>row-reverse</code>: Елементите се распоредени спротивно од насоката на текстот.</li><li><code>column</code>: Елементите се распоредени од горе надолу.</li><li><code>column-reverse</code>: Елементите се распоредени од долу нагоре.</li></ul>',
-      'uz': `<p>Mijozlarni somsalarini likoplarga <code>flex-direction</code> ishlatib joylashtiring. Bu CSS xususiyat saqlagichdagi buyumlarni saflash yo'nalishiga javob beradi, va quyidagi qiymatlarni oladi:</p>
+      'uz': `<p>Xo'randalarning somsalarini shu likoplarga <code>flex-direction</code> xususiyatidan foydalanib joylang. Bu CSS xususiyat saqlagichdagi buyumlarni saflash yo'nalishiga javob beradi, va quyidagi qiymatlarning biriga ega bo'ladi:</p>
         <ul>
-        <li><code>row</code>: Buyumlar matn kabi joylashtiriladi (chapdan o'ngga).</li>
-        <li><code>row-reverse</code>: Buyumlar matn yo'nalishiga tezkari joylashtiriladi.</li>
-        <li><code>column</code>: Buyumlar tepadan pastga joylashtiriladi.</li>
-        <li><code>column-reverse</code>: Buyumlar pastdan tepaga joylashtiriladi.</li>
+        <li><code>row</code> – buyumlar matn kabi joylanadi (chapdan o'ngga).</li>
+        <li><code>row-reverse</code> – buyumlar matn yo'nalishiga tezkari joylanadi.</li>
+        <li><code>column</code> – buyumlar tepadan pastga joylanadi.</li>
+        <li><code>column-reverse</code> – buyumlar pastdan tepaga joylanadi.</li>
         </ul>`
     },
     board: 'gyr',
@@ -428,7 +428,7 @@ var levels = [
       'ml': '<p>തവളകൾ സ്വന്തം lilypads ലേക്കുള്ള സഹായിക്കുക. അവർ തൊട്ടു അടുത്ത് ആണെങ്കിൽ പോലും  <code>flex-direction</code> and <code>justify-content</code> ഉപയോഗിക്കേണ്ടി വരും അവരെ ലക്ഷ്യസ്ഥാനത്തു എത്തിക്കാൻ </p><p>തിരിയുന്ന വരി അല്ലെങ്കിൽ നിരയിലേക്ക് നിങ്ങൾ ദിശ സജ്ജമാക്കിയാൽ, ആരംഭവും അവസാനവും തിരസ്കരിക്കുന്നു.</p>',
       'el': '<p>Βοηθήστε τους βατράχους να φτάσουν στα νούφαρά τους. Αν και φαίνονται κοντά, θα χρειαστεί τόσο το <code>flex-direction</code> όσο και το <code>justify-content</code> για να τους πάτε εκεί.</p><p>Σημειώστε ότι όταν ορίζετε την κατεύθυνση σε μια αντεστραμμένη σειρά ή στήλη, η αρχή και το τέλος επίσης αντιστρέφονται.</p>',
       'mk': '<p>Помогнете им на жабите да стигнат до своите листови. Иако се чинат близу, ќе бидат потребни и <code>flex-direction</code> и <code>justify-content</code> да ги доведеме таму.</p><p>Приметете дека кога ја поставувате насоката на ред или колона обратно, почетокот и крајот исто така треба да бидат обратни.</p>',
-      'uz': `<p>Somsalarni och mijozlarimizni likoplariga tarqatib qo'ying. Likopla yaqin korinar, lekin somsalarni joylashtirish uchun <code>flex-direction</code> va <code>justify-content</code> ikkalasi kerak boladi.</p><p>Ahamiyat bering, yo'nalishni tezkari qatorga yoki tezkari ustunga almashtirsangiz, boshlanishi va oxiri ham joyi bilan almashadi.</p>`
+      'uz': `<p>Somsalarni och xo'randalarning likoplariga tarqatib qo'ying. Likopla yaqin korinar, lekin somsalarni joylash uchun <code>flex-direction</code> va <code>justify-content</code> birikmasi kerak boladi.</p><p>E'tibor bering, saflash yo'nalishni tezkariga almashtirsangiz, boshi va oxiri joy bilan almashadi.</p>`
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
@@ -468,7 +468,7 @@ var levels = [
       'ml': '<p><code>flex-direction</code> and <code>justify-content</code> ഉപയോഗിച്ച് വഴു കണ്ടു പിടിക്കാൻ സഹായിക്കുക .</p><p>ശ്രദ്ധിക്കുക, <code>flex direction</code> column ആണെങ്കിൽ <code>justify-content</code> vertical ആകും <code>align-items</code> horizontal ആകും .</p>',
       'el': '<p>Βοηθήστε τους βατράχους να βρουν τα νούφαρά τους χρησιμοποιώντας τα <code>flex-direction</code> και <code>justify-content</code>.</p><p>Σημειώστε ότι όταν η κατεύθυνση flex είναι μια στήλη, το <code>justify-content</code> αλλάζει στον κάθετο άξονα και το <code>align-items</code> στον οριζόντιο.</p>',
       'mk': '<p>Помогнете им на жабите да ги најдат своите листови со користење на <code>flex-direction</code> и <code>justify-content</code>.</p><p>Приметете дека кога flex насоката е колона, <code>justify-content</code> променува по вертикалата и <code>align-items</code> по хоризонталата.</p>',
-      'uz': `<p>Somlarani o'z likopchalarga <code>flex-direction</code> va <code>justify-content</code> ishlatib joylashring.</p><p>Ahamiyat bering <code>flex-direction</code> qiymati <code>column</code> teng bo'lganida, <code>justify-content</code> buyumlarni tik o'q bo'yicha saflaydi, va <code>align-items</code> yotiq o'q bo'yicha saflaydi.</p>`
+      'uz': `<p>Somlarani o'z likoplariga <code>flex-direction</code> va <code>justify-content</code> xususiyatlaridan foydalanib joylang.</p><p>E'tibor bering, <code>flex-direction</code> ni qiymati <code>column</code> ga teng bo'lganida, <code>justify-content</code> buyumlarni tik o'q bo'yicha saflaydi, va <code>align-items</code> yotiq o'q bo'yicha saflaydi.</p>`
     },
     board: 'gyr',
     style: {'flex-direction': 'column', 'justify-content': 'flex-end'},
@@ -508,7 +508,7 @@ var levels = [
       'ml': '<p><code>flex-direction</code> and <code>justify-content</code> ഉപയോഗിച്ച് വഴി കണ്ടെത്താൻ സഹായിക്കുക.</p>',
       'el': '<p>Βοηθήστε τους βατράχους να βρουν τα νούφαρά τους χρησιμοποιώντας τα <code>flex-direction</code> και <code>justify-content</code>.</p>',
       'mk': '<p>Помогнете им на жабите да ги најдат своите листови со користење на <code>flex-direction</code> и <code>justify-content</code>.</p>',
-      'uz': `<p><code>flex-direction</code> va <code>justify-content</code> ishlatib somsalarni likoplarga, xo'randalarga tarqatish uchun joylashtiring.</p>`
+      'uz': `<p><code>flex-direction</code> va <code>justify-content</code> xususiyatlaridan foydalanib somsalarni likoplariga, xo'randalarga tarqatish uchun joylang.</p>`
     },
     board: 'gyr',
     style: {'flex-direction': 'column-reverse', 'justify-content': 'space-between'},
@@ -548,7 +548,7 @@ var levels = [
       'ml': '<p><code>flex-direction</code>, <code>justify-content</code>, and <code>align-items</code> ഉപയോഗിച്ച് വഴി കണ്ടെത്താൻ സഹായിക്കുക .</p>',
       'el': '<p>Βοηθήστε τους βατράχους να βρουν τα νούφαρά τους χρησιμοποιώντας τα <code>flex-direction</code>, <code>justify-content</code>, και <code>align-items</code>.</p>',
       'mk': '<p>Помогнете им на жабите да ги најдат своите листови со користење на <code>flex-direction</code>, <code>justify-content</code>, и <code>align-items</code>.</p>',
-      'uz': `<p><code>flex-direction</code>, <code>justify-content</code> va <code>align-items</code> ishlatib somsalarni o'z likoplariga joylashtiring.</p>`
+      'uz': `<p><code>flex-direction</code>, <code>justify-content</code> va <code>align-items</code> ishlatib somsalarni o'z likoplariga joylang.</p>`
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
@@ -588,7 +588,7 @@ var levels = [
       'ml': '<p>ചിലപ്പോൾ ഒരു കണ്ടെയ്നറിന്റെ വരി അല്ലെങ്കിൽ നിര ക്രമം മറികടക്കാൻ പര്യാപ്തമല്ല. ഇങ്ങനെ ഉള്ള സാഹചര്യങ്ങളിൽ <code>order</code> വ്യക്തിഗത ഇനങ്ങളെ മാറ്റുവാൻ സാധിക്കും . സ്വതവേ, ഇനങ്ങൾക്കു് 0 എന്ന മൂല്ല്യം ഉണ്ടെങ്കിലും, ഈ വസ്തുവിനെ പോസിറ്റീവ് അല്ലെങ്കിൽ നെഗറ്റീവ് ഇന്റഗ്രർ മൂല്യമായി സജ്ജമാക്കാൻ നമുക്ക് ഉപയോഗിക്കാം.</p><p><code>order</code> ഉപയോഗിച്ച് തവളകളെ താമര ഇലകളിലേക്കു എത്തിക്കുക .</p>',
       'el': '<p>Μερικές φορές η αντιστροφή της σειράς ταξινόμησης των σειρών ή των στηλών ενός container δεν είναι αρκετή. Σ\' αυτές τις περιπτώσεις, μπορούμε να εφαρμόσουμε την ιδιότητα <code>order</code> σε μεμονωμένα αντικείμενα. Από προεπιλογή, τα αντικείμενα έχουν αξία 0, αλλά μπορούμε να χρησιμοποιήσουμε αυτή την ιδιότητα για να την ορίσουμε σε μία θετική ή αρνητική ακέραιη αξία.</p><p>Χρησιμοποιήστε την ιδιότητα <code>order</code> για να αναδιατάξετε τους βατράχους σύμφωνα με τα νούφαρά τους.</p>',
       'mk': '<p>Понекогаш превртување на редоследот на редиците или колоните во контејнер не е доволно. Во овие случаи, можеме да го примениме <code>order</code> својството на индивидуални елементи. Стандардно, елементите имаат вредност од 0, но можеме да го искористиме ова својство да ја поставиме на позитивна или негативна вредност.</p><p>Користете го <code>order</code> својството да ги прередите жабите според нивните листови.</p>',
-      'uz': `<p>Ba'zida saqlagichni saflash tartibini tezkarisiga o'zgartirish yetarli emas. Shunaqa taqdirlarda <code>order</code> xususiyatni ayrim buyumlarga nisbatan ishlating. <code>Order</code> so'zi tartibni anglatadi. <code>order</code> xususiyatiga oldindan berilgan qiymati 0 teng, va shu xususiyatga musbat yoki manfiy qiymatni berishimiz mumkin.</p><p><code>order</code> xususiyatini somsalarni tartibini o'zgartirish uchun ishlating.</p>`
+      'uz': `<p>Ba'zida saqlagichni saflash tartibini tezkarisiga o'zgartirish yetarli emas. Shunaqa taqdirlarda <code>order</code> xususiyatini ayrim buyumlarga nisbatan ishlating. <code>Order</code> so'zi tartibni anglatadi. <code>order</code> xususiyatining odatiy qiymati 0 ga teng, va shu xususiyat musbat yoki manfiy qiymatga ega bo'lishi mumkin.</p><p><code>order</code> xususiyatini somsalarning tartibini o'zgartirish uchun ishlating.</p>`
     },
     board: 'gyr',
     selector: '> :nth-child(2)',
@@ -630,7 +630,7 @@ var levels = [
       'ml': '<p><code>order</code> ഉപയോഗിച്ച് ചുവന്ന തവളകളെ താമര ഇലകളിലേക്കു എത്തിക്കുക.</p>',
       'el': '<p>Χρησιμοποιήστε την ιδιότητα <code>order</code> για να στείλετε τον κόκκινο βάτραχο στο νούφαρό του.</p>',
       'mk': '<p>Користете го <code>order</code> својството да ја пратите црвената жаба до нејзиниот лист.</p>',
-      'uz': `<p><code>order</code> xususiyatini qizil somsani o'z likopiga joylashtirish uchun ishlating.</p>`
+      'uz': `<p><code>order</code> xususiyatini qizil somsani o'z likopiga joylash uchun ishlating.</p>`
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
@@ -672,7 +672,7 @@ var levels = [
       'ml': '<p>വ്യക്തിഗത ഇനങ്ങൾക്ക് ഇത് അപ്ലൈ ചെയുവാൻ ആയി <code>align-self</code> ഉപയോഗിക്കാം. ഈ പ്രോപ്പർട്ടി  <code>align-items</code> യുടെ അതേ പ്രോപ്പർട്ടീസ് താനെ സ്വീകരിക്കും </p>',
       'el': '<p>Μια άλλη ιδιότητα που μπορείτε να εφαρμόσετε σε μεμονωμένα αντικείμενα είναι το <code>align-self</code>. Αυτή η ιδιότητα αποδέχεται τις ίδιες αξίες με το <code>align-items</code>, αλλά ισχύει μόνο για το συγκεκριμένο αντικείμενο.</p>',
       'mk': '<p>Друго својство кое што можете да го примените на индивидуални елементи е <code>align-self</code>. Ова својство ги прима истите вредности како и <code>align-items</code> и неговата вредност за определен елемент.</p>',
-      'uz': `<p>Ayrim buyumlarga nisbatan ishlatish mumkin bo'lgan xususiyat bu <code>align-self</code>. Bu xususiyatga <code>align-items</code> xususiyat kabi qiymatlarni bersa bo'ladi.</p>`
+      'uz': `<p>Ayrim buyumlarga nisbatan ishlatish mumkin bo'lgan xususiyat bu <code>align-self</code>. Bu xususiyat <code>align-items</code> xususiyat kabi qiymatlarga ega bo'lishi mumkin.</p>`
     },
     board: 'ggygg',
     selector: '> :nth-child(3)',
@@ -713,7 +713,7 @@ var levels = [
       'ml': '<p><code>order</code> with <code>align-self</code> ഉപയോഗിച്ച് ഉദ്ധിഷ്ടസ്ഥാനത്തു എത്തിക്കുക.</p>',
       'el': '<p>Συνδυάστε το <code>order</code> με το <code>align-self</code> για να βοηθήσετε τους βατράχους να φτάσουν στους προορισμούς τους.</p>',
       'mk': '<p>Комбинирајте <code>order</code> со <code>align-self</code> да им помогнете на жабите да стигнат до нивните дестинации.</p>',
-      'uz': `<p>Somsalarni xo'randalarni likoplariga joylashtirish uchun <code>order</code> va <code>align-self</code> birikmasini ishlating.</p>`
+      'uz': `<p>Somsalarni xo'randalarning likoplariga joylash uchun <code>order</code> va <code>align-self</code> birikmasini ishlating.</p>`
     },
     board: 'ygygg',
     selector: '> .yellow',
@@ -754,11 +754,11 @@ var levels = [
       'ml': '<p>അയ്യോ! തവളകൾ അലാം ഒരേ വഴിയിൽ പെറ്റു പോയി. <code>flex-wrap</code> ഉപയോഗിച്ച് അവരെ നീക്കി നിർത്തു. </p><ul><li><code>nowrap</code>: ഓരോ ഇനവും ഒരൊറ്റ വരിയ്ക്ക് അനുയോജ്യമാണ്.</li><li><code>wrap</code>: ഇനങ്ങൾ അധിക വരികളിലേക്ക് പൊതിയുക.</li><li><code>wrap-reverse</code>: പിൻവലിക്കിലെ കൂടുതൽ വരികളിലേക്ക് ഇനങ്ങൾ സഞ്ചരിക്കുന്നു.</li></ul>',
       'el': '<p>Ωχ όχι! Όλοι οι βάτραχοι συμπιέζονται σε μία σειρά νουφάρων. Απλώστε τους χρησιμοποιώντας την ιδιότητα <code>flex-wrap</code>, που αποδέχεται τις εξής αξίες:</p><ul><li><code>nowrap</code>: Όλα τα αντικείμενα τοποθετούνται σε μία μόνο γραμμή.</li><li><code>wrap</code>: Τα αντικείμενα τυλίγονται σε επιπρόσθετες γραμμές.</li><li><code>wrap-reverse</code>: Τα αντικείμενα τυλίγονται σε επιπρόσθετες γραμμές με αντίστροφη σειρά.</li></ul>',
       'mk': '<p>О не! Сите жабите се смачкани на еден единствен ред од листови. Распределете ги со користење на <code>flex-wrap</code> својството, кое што ги прима следните вредности:</p><ul><li><code>nowrap</code>: Секој елемент опфаќа еден ред.</li><li><code>wrap</code>: Елементите се подредуваат во дополнителни редови.</li><li><code>wrap-reverse</code>: Елементите се подредуваат во дополнителни редови во обратен редослед.</li></ul>',
-      'uz': `<p>Vay vo! Hamma somsalarni bitta qatorda siqib qo'ymang. <code>flex-wrap</code> xususiyatni ishlatib ularni tarqatib yuboring. Bu xususiyatga quyidagi qiymatlarni bersa bo'ladi:</p>
+      'uz': `<p>Vay vo! Hamma somsalarni bitta qatorda siqib qo'ymang. <code>flex-wrap</code> xususiyatini ishlatib ularni tarqatib yuboring. Bu xususiyat quyidagi qiymatlarning biriga ega bo'ladi:</p>
       <ul>
-      <li><code>nowrap</code>: Hamma buyumlar bitta qatorda sig'diriladi.</li>
-      <li><code>wrap</code>: Buyumlar bir nechta qatorga tarqatiladi (birinchi qatorda joy yetmasa).</li>
-      <li><code>wrap-reverse</code>: Buyumlar bir nechta qatorga tarqatiladi (birinchi qatorda joy yetmasa). Lekin tezkari tarzda joylashtiriladi.</li></ul>`
+      <li><code>nowrap</code> – hamma buyumlar bitta qatorga sig'diriladi.</li>
+      <li><code>wrap</code> – buyumlar bir nechta qatorga tarqatiladi (birinchi qatorda joy yetmasa).</li>
+      <li><code>wrap-reverse</code> – buyumlar bir nechta qatorga tarqatiladi (birinchi qatorda joy yetmasa). Lekin tezkari tarzda joylanadi.</li></ul>`
     },
     board: 'ygggggr',
     style: {'flex-wrap': 'wrap'},
@@ -798,7 +798,7 @@ var levels = [
       'ml': '<p><code>flex-direction</code> and <code>flex-wrap</code>. ഉപയോഗിച്ച് മൂന്നു ക്രമമായ നിരകൾ ഉണ്ടാക്കുക</p>',
       'el': '<p>Βοηθήστε αυτή την στρατιά βατράχων να διαμορφώσει τρεις τακτικές στήλες χρησιμοποιώντας έναν συνδυασμό του <code>flex-direction</code> και του <code>flex-wrap</code>.</p>',
       'mk': '<p>Помогнете ѝ на оваа армија од жаби да формира три подредени колони со користење на комбинација од <code>flex-direction</code> и <code>flex-wrap</code>.</p>',
-      'uz': `<p>Bu somsalarni qo'shinini uchta qatorga <code>flex-direction</code> va <code>flex-wrap</code> ishlatib joylashtiring.</p>`
+      'uz': `<p>Bu somsalarning qo'shinini uchta qatorga <code>flex-direction</code> va <code>flex-wrap</code> ishlatib joylang.</p>`
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-direction': 'column', 'flex-wrap': 'wrap'},
@@ -838,7 +838,7 @@ var levels = [
       'ml': '<p><code>flex-direction</code> and <code>flex-wrap</code> സ്ഥിരം ആയി ഉപയോഗിക്കുന്നതിനാൽ ഇവയെ ഒരുമിച്ചു <code>flex-flow</code> എന്ന് ചുരുക്കി ഉപയോഗിക്കാം. ഈ ഷോർട്ട് ഹാൻഡ് പ്രോപ്പർട്ടി ഒരു സ്പെയ്സ് കൊണ്ട് വേർതിരിച്ച രണ്ട് സവിശേഷതകളിൽ ഒന്ന് അംഗീകരിക്കുകയും ചെയ്യുന്നു.</p><p>ഉദാഹരണം<code>flex-flow: row wrap</code> വരികൾ സജ്ജമാക്കുകയും അവ പൊതിയുക.</p><p>മുൻപത്തെ നിലയിൽ ചെയ്തത് വീണ്ടും <code>flex-flow</code> ഉപയോഗിച്ച് ചെയുക</p>',
       'el': '<p>Οι δύο ιδιότητες <code>flex-direction</code> και <code>flex-wrap</code> χρησιμοποιούνται τόσο συχνά μαζί ώστε η συντομογραφική ιδιότητα <code>flex-flow</code> δημιουργήθηκε για να τις συνδυάσει. Αυτή η συντομογραφική ιδιότητα αποδέχεται τις αξίες των δύο ιδιοτήτων χωριζόμενες από ένα διάστημα.</p><p>Λόγου χάρη, μπορείτε να χρησιμοποιήστε το <code>flex-flow: row wrap</code> για να ορίσετε σειρές και να τις τυλίξετε.</p><p>Δοκιμάστε να χρησιμοποιήσετε το <code>flex-flow</code> για να επαναλάβετε το προηγούμενο επίπεδο.</p>',
       'mk': '<p>Двете својства <code>flex-direction</code> и <code>flex-wrap</code> се користат толку често заедно што е создадено својството <code>flex-flow</code> за да ги искомбинира. Ова скратено својство ја прима вредноста на едно од двете својства разделени со спејс.</p><p>На пример, можете да користите <code>flex-flow: row wrap</code> да определите редови и да ги подредите.</p><p>Пробајте да користите <code>flex-flow</code> да го повторите претходното ниво.</p>',
-      'uz': `<p><code>flex-direction</code> va <code>flex-wrap</code> xususiyatlar birga shunaqa qo'p ishlatiladiki, ularni birlashtirish uchun <code>flex-flow</code> qisqartma xususiyat yaratilgan. Bu xususiyatga tepadagi ikkita xususiyatlarni qiymatini bersa boladi.</p><p>Masalan siz <code>flex-flow: row wrap</code> xususiyatni yonalishni qatorga o'zgartirish uchun, va yangi qatorga otkazishni o'rnatish uchun ishlatsangiz bo'ladi.</p><p><code>flex-flow</code> o'tgan bosqichlarni qaytarish uchun ishlatib koring.</p>`
+      'uz': `<p><code>flex-direction</code> va <code>flex-wrap</code> xususiyatlar birga shunaqa qo'p ishlatiladiki, ularni birlashtirish uchun <code>flex-flow</code> qisqartma xususiyat yaratilgan. Bu xususiyat tepadagi ikkita xususiyatlarni qiymatlariga ega bo'lishi mumkin.</p><p>Masalan siz <code>flex-flow: row wrap</code> xususiyatini saflash yo'nalishini qatorga o'zgartirish uchun, va yangi qatorga otkazishni o'rnatish uchun ishlatsangiz bo'ladi.</p><p><code>flex-flow</code> ni o'tgan bosqichlarni qaytarish uchun ishlatib ko'ring.</p>`
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-flow': 'column wrap'},
@@ -878,16 +878,16 @@ var levels = [
       'ml': '<p>തവളകൾ മുഴുവൻ കുളങ്ങളിൽ പടർന്നു കിടക്കുന്നു, എന്നാൽ ലില്ലിപാഡുകൾ മുകളിലത്തെ നിലയിൽ വളരുന്നു. <code>align-content</code> ഉപയോഗിച്ച് ഓരോ നിരയെയും നീക്കി നിർത്താൻ സാധിക്കും. ഈ പ്രോപ്പർട്ടി ഇനിപ്പറയുന്ന മൂല്യങ്ങൾ സ്വീകരിക്കുന്നു:</p><ul><li><code>flex-start</code>: ലൈനുകൾ കണ്ടെയ്നർ മുകളിൽ കയറുന്നു.</li><li><code>flex-end</code>: പാറ്റേണുകളുടെ അടിയിൽ വരികൾ പായ്ക്ക് ചെയ്യപ്പെടുന്നു.</li><li><code>center</code>: ലൈനുകളുടെ ലംബമായ കേന്ദ്രത്തിൽ ലൈനുകൾ പൂരിപ്പിച്ചിരിക്കുന്നു.</li><li><code>space-between</code>: അവയ്ക്കിടയിൽ തുല്യ ഇടവേളകളോടെയാണ് രേഖകൾ കാണിക്കുന്നത്.</li><li><code>space-around</code>: ലൈനുകൾ അവയ്ക്ക് തുല്യമായ ഇടവേളകളിൽ കാണിക്കുന്നു.</li><li><code>stretch</code>: കണ്ടെയ്നറുകൾക്ക് അനുയോജ്യമാക്കാൻ ലൈനുകൾ വലിച്ചു.</li></ul><p>ഇത് ആശയക്കുഴപ്പത്തിലാക്കും, പക്ഷേ <code>align-content</code> വരികൾക്കിടയിൽ സ്പെയ്സിംഗ് നിശ്ചയിക്കുന്നു, <code>align-items</code> കണ്ടെയ്നറിൽ മുഴുവൻ ഇനങ്ങൾ എങ്ങനെ വിന്യസിക്കപ്പെട്ടിരിക്കുന്നു എന്ന് നിർണ്ണയിക്കുന്നു. ഒരു വഴി ഉള്ളപ്പോൾ , <code>align-content</code> എഫ്ഫക്റ്റ് ഉണ്ടാകില്ല.</p>',
       'el': '<p>Οι βάτραχοι είναι διεσπαρμένοι σ\' όλη την επιφάνεια της λιμνούλας, αλλά τα νούφαρα είναι μαζεμένα στο πάνω μέρος. Μπορείτε να χρησιμοποιήσετε το <code>align-content</code> για να ορίσετε πως πολλαπλές γραμμές χωρίζονται με διάστημα η μία από την άλλη. Αυτή η ιδιότητα παίρνει τις εξής αξίες:</p><ul><li><code>flex-start</code>: Οι γραμμές τοποθετούνται στο πάνω μέρος του container.</li><li><code>flex-end</code>: Οι γραμμές τοποθετούνται στο κάτω μέρος του container.</li><li><code>center</code>: Οι γραμμές τοποθετούνται στο κάθετο κέντρο του container.</li><li><code>space-between</code>: Οι γραμμές εμφανίζονται με ίσο διάστημα μεταξύ τους.</li><li><code>space-around</code>: Οι γραμμές εμφανίζονται με ίσο διάστημα γύρω τους.</li><li><code>stretch</code>: Οι γραμμές τεντώνονται για να ταιριάξουν στο container.</li></ul><p>Αυτό μπορεί να είναι συγχυστικό, αλλά το <code>align-content</code> καθορίζει το διάστημα μεταξύ γραμμών, ενώ το <code>align-items</code> καθορίζει πως τα αντικείμενα ως σύνολο ευθυγραμμίζονται μέσα στο container. Όταν υπάρχει μόνο μία γραμμή, το <code>align-content</code> δεν έχει επίδραση.</p>',
       'mk': '<p>Жабите се распределени низ целото езерце, но листовите се во купче на горниот крај. Можете да користите <code>align-content</code> да поставите како множество на редови се разделени помеѓу себе. Ова својство ги прима следните вредности:</p><ul><li><code>flex-start</code>: Редовите се собрани на горниот крај од контејнерот.</li><li><code>flex-end</code>: Редовите се собрани на долниот крај од контејнерот.</li><li><code>center</code>: Редовите се собрани на вертикалниот центар на контејнерот.</li><li><code>space-between</code>: Редовите се појавуваат со еднакво растојание помеѓу себе.</li><li><code>space-around</code>: Редовите се појавуваат со еднакво растојаните околу себе.</li><li><code>stretch</code>: Редовите се истегнати да го пополнат контејнерот.</li></ul><p>Ова може да биде збунувачки, но <code>align-content</code> го определува растојанието помеѓу редови, додека <code>align-items</code> определува како сите елементи заедно се подредени во контејнерот. Кога има само еден ред, <code>align-content</code> нема ефект.</p>',
-      'uz': `<p>Somsalar xontaxta bo'yicha sochilib yotish kerak emas. Siz <code>align-content</code> qatorlar bir biriga qaraganda qanday joylashishini boshqarish uchun ishlatsangiz bo'ladi. Bu xususiyatga quyidagi qiymatlarni bersa bo'ladi:</p>
+      'uz': `<p>Somsalar xontaxta bo'yicha sochilib yotish kerak emas. Siz <code>align-content</code> ni qatorlarni bir biriga qaraganda qanday joylashni boshqarish uchun ishlatsangiz bo'ladi. Bu xususiyat quyidagi qiymatlarning biriga ega bo'ladi:</p>
         <ul>
-        <li><code>flex-start</code>: Qatorlar saqlagichni tepasida to'planadi.</li>
-        <li><code>flex-end</code>: Qatorlar saqlagichni pastida to'planadi</li>
-        <li><code>center</code>: Qatorlar saqlagichni tik o'qini markazida to'planadi</li>
-        <li><code>space-between</code>: Qatorlar orasida teng masofa bilan joylashadi.</li>
-        <li><code>space-around</code>: Qatorlar atrofida teng masofa bilan joylashadi.</li>
-        <li><code>stretch</code>: Qatorlar saqlagichni tik o'q bo'yicha cho'ziladi.</li>
+        <li><code>flex-start</code> – qatorlar saqlagichning tepasida to'planadi.</li>
+        <li><code>flex-end</code> – qatorlar saqlagichning pastida to'planadi.</li>
+        <li><code>center</code> – qatorlar saqlagichning tik o'qining markazida to'planadi.</li>
+        <li><code>space-between</code> – qatorlar orasida teng masofa bilan joylanadi.</li>
+        <li><code>space-around</code> – qatorlar atrofida teng masofa bilan joylanadi.</li>
+        <li><code>stretch</code> – qatorlar saqlagichning tik o'qi bo'yicha cho'ziladi.</li>
         </ul>
-        <p>Bu chalkash tuyilish mumkin, lekin <code>align-content</code> qatorlar orasida masofani, va qator oladigan joyni belgilaydi, <code>align-items</code> esa buyumlarni o'zini qatorini chegarasiga nisbatan masofani belgilaydi. Faqat bitta qator bo'lsa <code>align-content</code> ishlamaydi.</p>`
+        <p>Bu chalkash tuyulish mumkin, lekin <code>align-content</code> qatorlar orasida masofani, va qator oladigan joyni belgilaydi, <code>align-items</code> esa buyumlarni qatorining chegarasiga nisbatan masofani belgilaydi. Faqat bitta qator bo'lsa <code>align-content</code> ishlamaydi.</p>`
     },
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'},
@@ -928,7 +928,7 @@ var levels = [
       'ml': '<p>തിര കാരണം താമര ഇലകൾ താഴേക്കു വന്നിരിക്കുന്നു. <code>align-content</code> ഉപയോഗിച്ച് തവളകളെ വഴി കാണിക്കുക.</p>',
       'el': '<p>Τώρα το ρεύμα έχει μαζέψει τα νούφαρα στο κάτω μέρος. Χρησιμοποιήστε το <code>align-content</code> για να οδηγήσετε τους βατράχους εκεί.</p>',
       'mk': '<p>Сега струјата ги има собрано листовите на долниот крај. Користете <code>align-content</code> да ги насочите жабите натаму.</p>',
-      'uz': `<p>Endi likopchalar pastda turibdi. <code>align-content</code> somsalarni pastga joylashtirish uchun ishlating.</p>`
+      'uz': `<p>Endi likoplar pastda turibdi. <code>align-content</code> somsalarni pastga joylash uchun ishlating.</p>`
     },
     board: 'ggggggggggggggg',
     classes: {'#pond, #background': 'wrap'},
@@ -969,7 +969,7 @@ var levels = [
       'ml': '<p>തവളകൾ ഒരു പാർട്ടിക്കു പോയിരിക്കുക ആയിരുന്നു. പക്ഷെ ഇപ്പോൾ അവർക്കു തിരിച്ചു വീട്ടിൽ വരണം. <code>flex-direction</code> and <code>align-content</code> ഉപയോഗിച്ച് അവരെ താമര ഇലകളിലേക്കു എത്തിക്കു. </p>',
       'el': '<p>Οι βάτραχοι έκαναν πάρτυ, αλλά ήρθε η ώρα να πάνε στα σπίτια τους. Χρησιμοποιήστε έναν συνδυασμό του <code>flex-direction</code> και του <code>align-content</code> για να τους πάτε στα νούφαρά τους.</p>',
       'mk': '<p>Жабите имаа забава, но време е да си одат дома. Користете комбинација од <code>flex-direction</code> и <code>align-content</code> да ги доведете до нивните листови.</p>',
-      'uz': `<p>Somsalar issiq, qo'lingiz quyib qolmasin. <code>flex-direction</code> va <code>align-content</code> birikmasini ularni o'z likoplarga joylashtirish uchun ishlating.</p>`
+      'uz': `<p>Somsalar issiq, qo'lingiz quyib qolmasin. Ularni o'z likoplariga joylash uchun <code>flex-direction</code> va <code>align-content</code> birikmasini ishlating.</p>`
     },
     board: 'rgggyrgggyrgggy',
     classes: {'#pond, #background': 'wrap'},
@@ -1010,7 +1010,7 @@ var levels = [
       'ml': '<p>നിങ്ങൾ പഠിച്ച CSS പ്രോപ്പർട്ടികൾ ഉപയോഗിച്ച് ഒരു തവണ കൂടി തവളകളെ കൊണ്ടുവരിക:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code><img src="https://code.org/api/hour/finish_flexbox_froggy.png"></li></ul>',
       'el': '<p>Φέρτε τους βατράχους στα σπίτια τους μια τελευταία φορά χρησιμοποιώντας τις ιδιότητες CSS που μάθατε:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code><img src="https://code.org/api/hour/finish_flexbox_froggy.png"></li></ul>',
       'mk': '<p>Доведете ги жабите дома уште еден последен пат со користење на CSS својствата што ги научивте:</p><ul><li><code>justify-content</code></li><li><code>align-items</code></li><li><code>flex-direction</code></li><li><code>order</code></li><li><code>align-self</code></li><li><code>flex-wrap</code></li><li><code>flex-flow</code></li><li><code>align-content</code><img src="https://code.org/api/hour/finish_flexbox_froggy.png"></li></ul>',
-      'uz': `<p>Siz organgan CSS xususiyatlarni ishlatib oxirgi martta somsalarni likoplarga joylashring:</p>
+      'uz': `<p>Siz o'rgangan CSS xususiyatlarini ishlatib oxirgi martta somsalarni likoplariga joylang:</p>
         <ul>
         <li><code>justify-content</code></li>
         <li><code>align-items</code></li>
