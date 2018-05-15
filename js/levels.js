@@ -45,7 +45,7 @@ var levels = [
     },
     board: 'g',
     style: {'justify-content': 'flex-end'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -93,7 +93,7 @@ var levels = [
     },
     board: 'gy',
     style: {'justify-content': 'center'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -133,7 +133,7 @@ var levels = [
     },
     board: 'gyr',
     style: {'justify-content': 'space-around'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -173,7 +173,7 @@ var levels = [
     },
     board: 'gyr',
     style: {'justify-content': 'space-between'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -220,7 +220,7 @@ var levels = [
     },
     board: 'gyr',
     style: {'align-items': 'flex-end'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -260,7 +260,7 @@ var levels = [
     },
     board: 'g',
     style: {'justify-content': 'center', 'align-items': 'center'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -300,7 +300,7 @@ var levels = [
     },
     board: 'gyr',
     style: {'justify-content': 'space-around', 'align-items': 'flex-end'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -346,7 +346,7 @@ var levels = [
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -392,7 +392,7 @@ var levels = [
     },
     board: 'gyr',
     style: {'flex-direction': 'column'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -432,7 +432,7 @@ var levels = [
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'flex-end'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -472,7 +472,7 @@ var levels = [
     },
     board: 'gyr',
     style: {'flex-direction': 'column', 'justify-content': 'flex-end'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -512,7 +512,7 @@ var levels = [
     },
     board: 'gyr',
     style: {'flex-direction': 'column-reverse', 'justify-content': 'space-between'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -552,7 +552,7 @@ var levels = [
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -592,9 +592,9 @@ var levels = [
     },
     board: 'gyr',
     selector: '> :nth-child(2)',
-    classes: {'#pond, #background': 'wrap'},
+    classes: {'#xontaxta, #background': 'wrap'},
     style: {'order': '2'},
-    before: "#pond {\n  display: flex;\n}\n\n.yellow {\n",
+    before: "#xontaxta {\n  display: flex;\n}\n\n.yellow {\n",
     after: "}"
   },
   {
@@ -634,9 +634,9 @@ var levels = [
     },
     board: 'gggrg',
     selector: '> :nth-child(4)',
-    classes: {'#pond, #background': 'wrap'},
+    classes: {'#xontaxta, #background': 'wrap'},
     style: {'order': '-1'},
-    before: "#pond {\n  display: flex;\n}\n\n.red {\n",
+    before: "#xontaxta {\n  display: flex;\n}\n\n.red {\n",
     after: "}"
   },
   {
@@ -677,7 +677,7 @@ var levels = [
     board: 'ggygg',
     selector: '> :nth-child(3)',
     style: {'align-self': 'flex-end'},
-    before: "#pond {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
+    before: "#xontaxta {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
     after: "}"
   },
   {
@@ -718,7 +718,7 @@ var levels = [
     board: 'ygygg',
     selector: '> .yellow',
     style: {'align-self': 'flex-end', 'order': '2'},
-    before: "#pond {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
+    before: "#xontaxta {\n  display: flex;\n  align-items: flex-start;\n}\n\n.yellow {\n",
     after: "}"
   },
   {
@@ -762,7 +762,7 @@ var levels = [
     },
     board: 'ygggggr',
     style: {'flex-wrap': 'wrap'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -802,7 +802,7 @@ var levels = [
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-direction': 'column', 'flex-wrap': 'wrap'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -842,7 +842,7 @@ var levels = [
     },
     board: 'gggggrrrrryyyyy',
     style: {'flex-flow': 'column wrap'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   },
   {
@@ -890,9 +890,9 @@ var levels = [
         <p>Bu chalkash tuyulish mumkin, lekin <code>align-content</code> qatorlar orasida masofani, va qator oladigan joyni belgilaydi, <code>align-items</code> esa buyumlarni qatorining chegarasiga nisbatan masofani belgilaydi. Faqat bitta qator bo'lsa <code>align-content</code> ishlamaydi.</p>`
     },
     board: 'ggggggggggggggg',
-    classes: {'#pond, #background': 'wrap'},
+    classes: {'#xontaxta, #background': 'wrap'},
     style: {'align-content': 'flex-start'},
-    before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
+    before: "#xontaxta {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
   {
@@ -931,9 +931,9 @@ var levels = [
       'uz': `<p>Endi likoplar pastda turibdi. <code>align-content</code> somsalarni pastga joylash uchun ishlating.</p>`
     },
     board: 'ggggggggggggggg',
-    classes: {'#pond, #background': 'wrap'},
+    classes: {'#xontaxta, #background': 'wrap'},
     style: {'align-content': 'flex-end'},
-    before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
+    before: "#xontaxta {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
   {
@@ -972,9 +972,9 @@ var levels = [
       'uz': `<p>Somsalar issiq, qo'lingiz quyib qolmasin. Ularni o'z likoplariga joylash uchun <code>flex-direction</code> va <code>align-content</code> birikmasini ishlating.</p>`
     },
     board: 'rgggyrgggyrgggy',
-    classes: {'#pond, #background': 'wrap'},
+    classes: {'#xontaxta, #background': 'wrap'},
     style: {'flex-direction': 'column-reverse', 'align-content': 'center'},
-    before: "#pond {\n  display: flex;\n  flex-wrap: wrap;\n",
+    before: "#xontaxta {\n  display: flex;\n  flex-wrap: wrap;\n",
     after: "}"
   },
   {
@@ -1024,7 +1024,7 @@ var levels = [
     },
     board: 'rggggyy',
     style: {'flex-direction': 'column-reverse', 'flex-wrap': 'wrap-reverse', 'align-content': 'space-between', 'justify-content': 'center'},
-    before: "#pond {\n  display: flex;\n",
+    before: "#xontaxta {\n  display: flex;\n",
     after: "}"
   }
 ];
@@ -1065,8 +1065,8 @@ var levelWin = {
     'uz': "<p>Yashang, siz yutdingiz! Endi mazza qilib o'zingiz shu somsalarni yesangiz bo'ladi! </p>"
   },
   board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
-  classes: {'#pond, #background': 'wrap'},
+  classes: {'#xontaxta, #background': 'wrap'},
   style: {},
-  before: "#pond {\n  display: flex;\n",
+  before: "#xontaxta {\n  display: flex;\n",
   after: "}"
 };

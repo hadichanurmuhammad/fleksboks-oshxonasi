@@ -196,7 +196,7 @@ var game = {
   loadLevel: function(level) {
     $('#editor').show();
     $('#share').hide();
-    $('#background, #pond').removeClass('wrap').attr('style', '').empty();
+    $('#background, #xontaxta').removeClass('wrap').attr('style', '').empty();
     $('#levelsWrapper').hide();
     $('.level-marker').removeClass('current').eq(this.level).addClass('current');
     $('#level-counter .current').text(this.level + 1);
@@ -244,7 +244,7 @@ var game = {
       $('<div/>').addClass('bg animated pulse infinite').appendTo(frog);
 
       $('#background').append(lilypad);
-      $('#pond').append(frog);
+      $('#xontaxta').append(frog);
     }
 
     var classes = level.classes;
@@ -288,7 +288,7 @@ var game = {
     var level = levels[game.level];
     var code = $('#code').val();
     var selector = level.selector || '';
-    $('#pond ' +  selector).attr('style', code);
+    $('#xontaxta ' +  selector).attr('style', code);
     game.saveAnswer();
   },
 

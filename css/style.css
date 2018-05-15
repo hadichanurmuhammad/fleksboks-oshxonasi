@@ -382,7 +382,7 @@ button:not(.disabled):hover {
   overflow: hidden;
 }
 
-#pond,
+#xontaxta,
 #background {
   display: flex;
   position: absolute;
@@ -399,7 +399,7 @@ button:not(.disabled):hover {
   background-color: #8bc34a;
 }
 
-#pond {
+#xontaxta {
   z-index: 20;
 }
 
