@@ -1,4 +1,4 @@
-container: saqlagich
+container: idish
 property: xususiyat
 value: qiymat
 default: oldindan berilgan

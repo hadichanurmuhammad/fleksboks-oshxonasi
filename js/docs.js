@@ -30,7 +30,7 @@ var docs = {
     'ml': '<p>ക്രോസ്-അച്ചുതയിൽ അധിക സ്ഥലം ഉള്ളപ്പോൾ ഫ്ലെക്സസ് കണ്ടെയ്നറിലുള്ള നിരകൾ വിന്യസിക്കുന്നു. </p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'el': '<p>Ευθυγραμμίζει τις γραμμές ενός flex container μέσα στο πλαίσιο του flex container όταν υπάρχει επιπλέον χώρος στον εγκάρσιο άξονα.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
     'mk': '<p>Ги подредува линиите на flex контејнерот кога во него има дополнителнен простор по вертикалната оска.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>',
-    'uz': "<p>Saqlagich ichida qatorlarni ko'ndalang o'q bo'yicha saflaydi (faqat qatorlar soni bittadan ko'p bo'lsa).</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>"
+    'uz': "<p>Idish ichida qatorlarni ko'ndalang o'q bo'yicha saflaydi (faqat qatorlar soni bittadan ko'p bo'lsa).</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code> <code>stretch</code>"
   },
   'align-items': {
     'en': '<p>Aligns flex items along the cross axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>baseline</code> <code>stretch</code>',
