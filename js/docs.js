@@ -162,7 +162,7 @@ var docs = {
     'ml': '<p><code>flex-direction</code> and <code>flex-wrap</code> ോർട്ട്ഹാൻഡ്.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'el': '<p>Συντομογραφική ιδιότητα για τα <code>flex-direction</code> και <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
     'mk': '<p>Скратена верзија на <code>flex-direction</code> и <code>flex-wrap</code>.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>',
-    'uz': '<p><code>flex-direction</code> va <code>flex-wrap</code> birlashtiradigan qisqartma xususiyat.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
+    'uz': '<p><code>flex-direction</code> ni va <code>flex-wrap</code> ni birlashtiradigan qisqartma xususiyat.</p><code>&lt;flex-direction&gt; &lt;flex-wrap&gt;</code>'
   },
   'flex-wrap': {
     'en': '<p>Specifies whether flex items are forced on a single line or can be wrapped on multiple lines.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
@@ -195,7 +195,7 @@ var docs = {
     'ml': '<p>ഫ്ലെക്സിങ് ഇനങ്ങളെ ഒരൊറ്റ വരിയിൽ നിർബന്ധിതരാണോ അല്ലെങ്കിൽ ഒന്നിലധികം വരികളിൽ പൊതിഞ്ഞ് വരാമോ എന്ന് നിർദേശിക്കുന്നു.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'el': '<p>Προσδιορίζει κατά πόσο τα αντικείμενα flex στριμώχνονται σε μία γραμμή ή μπορούν να τυλιχθούν σε πολλαπλές γραμμές.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
     'mk': '<p>Специфицира дали flex елементите се присилени во еден ред или можат да бидат распределени во повеќе редови.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>',
-    'uz': '<p>Buyumlar bir qatorda turishini yoki bir nechta qatorga tarqalishini belgilaydi.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
+    'uz': '<p>Buyumlarni bir qatorda turishini yoki bir nechta qatorga tarqalishini belgilaydi.</p><code>nowrap</code> <code>wrap</code> <code>wrap-reverse</code>'
   },
   'justify-content': {
     'en': '<p>Aligns flex items along the main axis.</p><code>flex-start</code> <code>flex-end</code> <code>center</code> <code>space-between</code> <code>space-around</code>',

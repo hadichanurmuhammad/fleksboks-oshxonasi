@@ -195,7 +195,7 @@ var messages = {
     'ml': 'Flexbox Froggy - CSS Flexbox പഠിക്കാം',
     'el': 'Flexbox Froggy - Ένα παιχνίδι για την εκμάθηση του CSS Flexbox',
     'mk': 'Flexbox Froggy - Игра за учење на CSS flexbox',
-    'uz': "Fleksbo'ks oshxonasi - Fleksbo'ks o'rganish uchun o'yin"
+    'uz': "Fleksbo'ks oshxonasi - CSS Fleksbo'ks (Flexbox) o'rganish uchun o'yin"
   },
   labelReset: {
     'en': 'Reset',
@@ -261,7 +261,7 @@ var messages = {
     'ml': 'ഗെയിം പുനഃസജ്ജമാക്കണമെന്ന് നിങ്ങൾക്ക് തീർച്ചയാണോ?\n\nനിങ്ങളുടെ സംരക്ഷിത പുരോഗതി നഷ്ടപ്പെടുകയും നിങ്ങൾ ആദ്യം മുതൽ ആരംഭിക്കേണ്ടി വരും ',
     'el': 'Είστε σίγουροι ότι θέλετε να επαναφέρετε το παιχνίδι;\n\nΗ αποθηκευμένη σας πρόοδος θα χαθεί και θα βρεθείτε στην αρχή του παιχνιδιού.',
     'mk': 'Дали сте сигурни дека сакате да ја ресетирате играта?\n\nВашиот зачуван прогрес ќе биде загубен и ќе бидете пратени на почетокот на играта',
-    'uz': "Siz o'yinni qayta tiklashni aniq xohlaysizmi?\n\nSizning natijalariz tashaladi, va o'yin boshidan boshlanadi"
+    'uz': "Siz o'yinni qayta tiklashni aniq xohlaysizmi?\n\nSizning natijalaringiz tashlanadi, va o'yin boshidan boshlanadi"
   },
   gridGarden: {
     'en': 'Want to learn CSS grid? Play',
@@ -271,6 +271,6 @@ var messages = {
     'ml': 'CSS Grid പഠിക്കാനോ? കളിക്കു ',
     'el': 'Θέλετε να μάθετε CSS Grid; Παίξτε',
     'mk': 'Сакате да научите CSS grid? Играјте',
-    'uz': "CSS grid o'rganishni istaysizmi? Shuni o'ynang - "
+    'uz': "CSS Grid o'rganishni istaysizmi? Shuni o'ynang - "
   }
 };
