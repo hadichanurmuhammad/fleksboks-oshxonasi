@@ -261,6 +261,6 @@ var docs = {
     'ml': '<p>ഫ്ളക്സ് ഇനങ്ങളുടെ ക്രമം വ്യക്തമാക്കുന്നു</p></p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'el': '<p>Προσδιορίζει την σειρά του αντικειμένου flex.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
     'mk': '<p>Го одредува редоследот на flex елементот.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>',
-    'uz': '<p>Buyumni tartibini belgilaydi.</p><code>&lt;integer&gt; (... -1, 0, 1, ...)</code>'
+    'uz': '<p>Buyumni tartibini belgilaydi.</p><code>&lt;butun son&gt; (... -1, 0, 1, ...)</code>'
   }
 };
