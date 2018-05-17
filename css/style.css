@@ -429,14 +429,14 @@ button:not(.disabled):hover {
   animation-duration: 2s;
 }
 
-.frog.yellow .bg.bounce {
+.frog.sariq .bg.bounce {
   -webkit-animation-delay: .3s;
   -moz-animation-delay: .3s;
   -ms-animation-delay: .3s;
   animation-delay: .3s;
 }
 
-.frog.red .bg.bounce {
+.frog.qizil .bg.bounce {
   -webkit-animation-delay: .6s;
   -moz-animation-delay: .6s;
   -ms-animation-delay: .6s;
@@ -464,18 +464,18 @@ button:not(.disabled):hover {
   background-image: url("../images/lagan-yashil-color-assist.svg");
 }
 
-.lilypad.red .bg {
+.lilypad.qizil .bg {
   background-image: url("../images/lagan-qizil.svg");
 }
 
-.lilypad.red.cb-friendly .bg {
+.lilypad.qizil.cb-friendly .bg {
   background-image: url("../images/lagan-qizil-color-assist.svg");
 }
 
-.lilypad.yellow .bg {
+.lilypad.sariq .bg {
   background-image: url("../images/lagan-sariq.svg");
 }
-.lilypad.yellow.cb-friendly .bg {
+.lilypad.sariq.cb-friendly .bg {
   background-image: url("../images/lagan-sariq-color-assist.svg");
 }
 
@@ -487,19 +487,19 @@ button:not(.disabled):hover {
   background-image: url("../images/somsa-yashil-color-assist.svg");
 }
 
-.frog.red .bg {
+.frog.qizil .bg {
   background-image: url("../images/somsa-qizil.svg");
 }
 
-.frog.red.cb-friendly .bg {
+.frog.qizil.cb-friendly .bg {
   background-image: url("../images/somsa-qizil-color-assist.svg");
 }
 
-.frog.yellow .bg {
+.frog.sariq .bg {
   background-image: url("../images/somsa-sariq.svg");
 }
 
-.frog.yellow.cb-friendly .bg {
+.frog.sariq.cb-friendly .bg {
   background-image: url("../images/somsa-sariq-color-assist.svg");
 }
 

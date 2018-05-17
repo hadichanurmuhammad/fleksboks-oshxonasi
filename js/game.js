@@ -229,8 +229,8 @@ var game = {
     var markup = '';
     var colors = {
       'g': 'green',
-      'r': 'red',
-      'y': 'yellow'
+      'r': 'qizil',
+      'y': 'sariq'
     };
 
     for (var i = 0; i < string.length; i++) {
