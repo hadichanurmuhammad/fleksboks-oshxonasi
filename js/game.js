@@ -1,3 +1,14 @@
+var supportsNewFeatures = false;
+try {
+  supportsNewFeatures = CSS.supports('width', '1vw')
+    && CSS.supports('display', 'flex')
+    && localStorage;
+} catch (e) {}
+
+if (!supportsNewFeatures) {
+  alert("Assalomu alaykum. Bu o'yinni o'ynash uchun yangi brauzerdan foydalaning");
+}
+
 var game = {
   colorblind: (localStorage.colorblind && JSON.parse(localStorage.colorblind)) || false,
   language: window.location.hash.substring(1) || 'uz',
@@ -398,5 +409,7 @@ var game = {
 };
 
 $(document).ready(function() {
-  game.start();
+  if (supportsNewFeatures) {
+    game.start();
+  }
 });
