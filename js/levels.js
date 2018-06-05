@@ -152,7 +152,7 @@ var levels = [
       'ml': '<p>ഇപ്പോൾ ഞരമ്പുകളിലുള്ള താമരപ്പൂവും കടൽക്കരയിലേക്ക് നീങ്ങുന്നു, അവ തമ്മിൽ ഇടം വർദ്ധിപ്പിക്കുന്നു. <code>justify-content</code>. ഉപയോഗിച്ച്. താമര ഇലകൾക്ക് ഇടയിൽ ഒരേ ദൂരം ആണ് </p>',
       'el': '<p>Τώρα τα νούφαρα στις άκρες έχουν παρασυρθεί στην ακτή, αυξάνοντας το διάστημα μεταξύ τους. Χρησιμοποιήστε το <code>justify-content</code>. Αυτή την φορά, τα νούφαρα έχουν ίσο διάστημα μεταξύ τους.</p>',
       'mk': '<p>Сега листовите на рабовите се имаат придвижено кон брегот, зголемувајќи го просторот помеѓу нив. Користете <code>justify-content</code>. Овој пат, листовите имаат еднаков простор помеѓу нив.</p>',
-      'uz': "<p>Endi 2 ta likopni xontaxtaning chetlariga qo'yishibdi. <code>justify-content</code> bilan foydalanib somsalarni o'z joylariga qo'ying. Bu gal likoplarning atrofida teng masofa mavjud.</p>"
+      'uz': "<p>Endi 2 ta likopni xontaxtaning chetlariga qo'yishibdi. <code>justify-content</code> xususiyatidan foydalanib somsalarni o'z joylariga qo'ying. Bu gal likoplarning atrofida teng masofa mavjud.</p>"
     },
     board: 'gyr',
     style: {'justify-content': 'space-between'},
@@ -512,7 +512,7 @@ var levels = [
       'ml': '<p><code>flex-direction</code>, <code>justify-content</code>, and <code>align-items</code> ഉപയോഗിച്ച് വഴി കണ്ടെത്താൻ സഹായിക്കുക .</p>',
       'el': '<p>Βοηθήστε τους βατράχους να βρουν τα νούφαρά τους χρησιμοποιώντας τα <code>flex-direction</code>, <code>justify-content</code>, και <code>align-items</code>.</p>',
       'mk': '<p>Помогнете им на жабите да ги најдат своите листови со користење на <code>flex-direction</code>, <code>justify-content</code>, и <code>align-items</code>.</p>',
-      'uz': "<p><code>flex-direction</code>, <code>justify-content</code> va <code>align-items</code> bilan foydalanib somsalarni o'z likoplariga joylang.</p>"
+      'uz': "<p><code>flex-direction</code>, <code>justify-content</code> va <code>align-items</code> xususiyatlaridan foydalanib somsalarni o'z likoplariga joylang.</p>"
     },
     board: 'gyr',
     style: {'flex-direction': 'row-reverse', 'justify-content': 'center', 'align-items': 'flex-end'},
