@@ -543,6 +543,16 @@ button:not(.disabled):hover {
   }
 }
 
+@media only screen and (max-width: 450px) {
+  #code, #editor, #editor pre {
+    font-size: 12px;
+  }
+  #code {
+    margin-left: 12px;
+    width: calc(100% - 12px);
+  }
+}
+
 @media only screen and (max-width: 1000px)  {
 
   body,

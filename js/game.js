@@ -32,7 +32,9 @@ var game = {
   },
 
   setHandlers: function() {
-    $('#next').on('click', function() {
+    $('#next').on('click', function(event) {
+      event.preventDefault();
+      
       $('#code').focus();
 
       if ($(this).hasClass('disabled')) {
