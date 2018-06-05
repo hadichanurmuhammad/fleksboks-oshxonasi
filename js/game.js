@@ -33,9 +33,9 @@ var game = {
 
   setHandlers: function() {
     $('#next').on('click', function(event) {
-      event.preventDefault();
-      
-      $('#code').focus();
+      if ($(window).width() >= 768) { 
+        $('#code').focus();
+      }
 
       if ($(this).hasClass('disabled')) {
         if (!$('.frog').hasClass('animated')) {
