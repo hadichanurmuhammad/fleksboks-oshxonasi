@@ -518,6 +518,23 @@ button:not(.disabled):hover {
   background-color: #6CB26F;
 }
 
+@media only screen and (max-width: 767px) {
+  #sidebar {
+    width: 100%;
+  }
+  body {
+    flex-direction: column;
+    min-width: unset;
+  }
+  #board {
+    width: 100vw;
+    height: 100vw;
+  }
+  #level-counter {
+    float: unset;
+  }
+}
+
 @media only screen and (max-width: 1000px)  {
 
   body,
