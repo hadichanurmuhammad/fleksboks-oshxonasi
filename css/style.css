@@ -544,13 +544,8 @@ button:not(.disabled):hover {
 }
 
 @media only screen and (max-width: 450px) {
-  #code, #editor, #editor pre {
-    font-size: 14px;
-  }
   #code {
-    margin-left: 14px;
     white-space: pre;
-    width: calc(100% - 14px);
   }
 }
 
