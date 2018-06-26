@@ -6,7 +6,7 @@ try {
 } catch (e) {}
 
 if (!supportsNewFeatures) {
-  alert("Assalomu alaykum. Bu o'yinni o'ynash uchun yangi brauzerdan foydalaning");
+  alert("Assalomu alaykum. Bu o'yinni o'ynash uchun yangi brauzerdan foydalaning.");
 }
 
 var game = {
@@ -126,12 +126,6 @@ var game = {
       game.language = window.location.hash.substring(1) || 'en';
       game.translate();
 
-      $('#tweet iframe').remove();
-      var html = '<a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://flexboxfroggy.com" data-via="thomashpark">Tweet</a> ' +
-                 '<a href="https://twitter.com/thomashpark" class="twitter-follow-button" data-show-count="false">Follow @thomashpark</a>';
-      $('#tweet').html(html);
-      twttr.widgets.load();
-
       if (game.language === 'en') {
         history.replaceState({}, document.title, './');
       }
@@ -234,7 +228,7 @@ var game = {
     var string = level.board;
     var markup = '';
     var colors = {
-      'g': 'green',
+      'g': 'yashil',
       'r': 'qizil',
       'y': 'sariq'
     };

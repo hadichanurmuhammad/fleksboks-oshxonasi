@@ -456,11 +456,11 @@ button:not(.disabled):hover {
   background-size: 60% 60%;
 }
 
-.lilypad.green .bg {
+.lilypad.yashil .bg {
   background-image: url("../images/lagan-yashil.svg");
 }
 
-.lilypad.green.cb-friendly .bg {
+.lilypad.yashil.cb-friendly .bg {
   background-image: url("../images/lagan-yashil-color-assist.svg");
 }
 
@@ -479,11 +479,11 @@ button:not(.disabled):hover {
   background-image: url("../images/lagan-sariq-color-assist.svg");
 }
 
-.frog.green .bg {
+.frog.yashil .bg {
   background-image: url("../images/somsa-yashil.svg");
 }
 
-.frog.green.cb-friendly .bg {
+.frog.yashil.cb-friendly .bg {
   background-image: url("../images/somsa-yashil-color-assist.svg");
 }
 
