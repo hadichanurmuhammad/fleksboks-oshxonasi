@@ -1,4 +1,4 @@
-Fleksbo'ks oshxonasi (CodeClass idorasi uchun qilingan)
+Fleksbo'ks oshxonasi
 =======
 
 CSS Fleksbo'ks o'rganish uchun o'zbek tilida o'yin - https://kmlxn.github.io/fleksboks-oshxonasi/.
