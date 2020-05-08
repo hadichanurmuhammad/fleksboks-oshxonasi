@@ -1,7 +1,6 @@
-Fleksboks oshxonasi
-=======
+# Fleksboks oshxonasi
 
-CSS Fleksboks o'rganish uchun o'zbek tilida o'yin - https://kmlxn.github.io/fleksboks-oshxonasi/.
+CSS Fleksboks o'rganish uchun o'zbek tilida o'yin - https://fleksboks.subh.org/.
 
 Bu `Flexbox Froggy` o'yinining tarjima qilingan va sal o'zgartirilgan talqini.
 
